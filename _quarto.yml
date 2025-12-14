@@ -1,0 +1,30 @@
+project:
+  type: website
+
+publish:
+  method: gh-pages
+  branch: gh-pages
+
+website:
+  title: "Emma Boone"
+  site-url: "https://emmaboone.github.io"
+  navbar:
+    left:
+      - text: "Over mij"
+        href: over-mij.html
+      - text: "Aanbod"
+        href: aanbod.html
+      - text: "Praktisch"
+        href: praktisch.html
+      - text: "Contact"
+        href: contact.html
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    page-layout: full
+
+resources:
+  - images
+  - icons

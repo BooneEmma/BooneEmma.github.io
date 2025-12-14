@@ -1,0 +1,46 @@
+---
+title: "Over mij"
+toc: false
+format:
+  html:
+    page-layout: full
+    css: styles.css
+---
+
+```{=html}
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!-- Navigation Section -->
+<nav>
+  <ul class="navbar">
+    <li><a href="over-mij.html">Over mij</a></li>
+    <li><a href="aanbod.html">Aanbod</a></li>
+    <li class="center-logo"><a href="index.html"><img src="icons/emma_written_varcon.png" alt="Logo"></a></li>
+    <li><a href="praktisch.html">Praktisch</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Over Mij Section -->
+<section class="content-section">
+  <div class="container">
+    <h2 class="section-title">Over mij</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Welkom! Ik ben Emma Boone, en ik ben gepassioneerd over het creëren van betekenisvolle ervaringen en het delen van mijn expertise.
+        </p>
+        <p>
+          Met jarenlange ervaring in mijn vakgebied, streef ik ernaar om de beste service te bieden aan iedereen met wie ik werk. Mijn aanpak is persoonlijk, professioneel en altijd gericht op jouw behoeften.
+        </p>
+        <p>
+          "Niet luisteren naar je horloge, da werkt gewoon nie..." is niet alleen een motto, maar een levensfilosofie die mijn werk kenmerkt.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```

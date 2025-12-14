@@ -1,0 +1,51 @@
+---
+toc: false
+format:
+  html:
+    page-layout: full
+    css: styles.css
+---
+
+```{=html}
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Navigation Section -->
+<nav>
+  <ul class="navbar">
+    <li><a href="over-mij.html">Over mij</a></li>
+    <li><a href="aanbod.html">Aanbod</a></li>
+    <li class="center-logo"><a href="index.html"><img src="icons/emma_written_varcon.png" alt="Logo"></a></li>
+    <li><a href="praktisch.html">Praktisch</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Landing Section with Split Layout -->
+<section class="landing-section">
+  <!-- Left Section: Eye-catching Image with Overlayed Quote -->
+  <div class="landing-left">
+    <img src="images/emma_window.png" alt="Example Image" class="landing-image">
+    <div class="landing-quote">
+      <h1>"Niet luisteren naar je horloge, da werkt gewoon nie ..."</h1>
+      <p>– Emma Boone</p>
+    </div>
+  </div>
+
+  <!-- Right Section: Key Information -->
+  <div class="landing-right">
+    <div class="landing-info">
+      <h2>Welkom</h2>
+      <p>
+        Welkom op mijn website. Hier vind je informatie over mijn diensten, praktische details en hoe je contact met mij kunt opnemen.
+      </p>
+      <p>
+        Ontdek wat ik te bieden heb en hoe ik jou kan helpen.
+      </p>
+    </div>
+  </div>
+</section>
+```

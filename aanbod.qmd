@@ -1,0 +1,63 @@
+---
+title: "Aanbod"
+toc: false
+format:
+  html:
+    page-layout: full
+    css: styles.css
+---
+
+```{=html}
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!-- Navigation Section -->
+<nav>
+  <ul class="navbar">
+    <li><a href="over-mij.html">Over mij</a></li>
+    <li><a href="aanbod.html">Aanbod</a></li>
+    <li class="center-logo"><a href="index.html"><img src="icons/emma_written_varcon.png" alt="Logo"></a></li>
+    <li><a href="praktisch.html">Praktisch</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Aanbod Section -->
+<section class="content-section">
+  <div class="container">
+    <h2 class="section-title">Aanbod</h2>
+    <p class="section-subtitle">Dit is wat ik te bieden heb</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="icon-circle">
+          <span class="service-icon">📋</span>
+        </div>
+        <h3>Dienst 1</h3>
+        <p>
+          Beschrijving van de eerste dienst die je aanbiedt. Dit kan een consultatie, workshop, of andere service zijn.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="icon-circle">
+          <span class="service-icon">💼</span>
+        </div>
+        <h3>Dienst 2</h3>
+        <p>
+          Beschrijving van de tweede dienst. Leg uit wat deze dienst inhoudt en hoe het waarde toevoegt voor je klanten.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="icon-circle">
+          <span class="service-icon">🎯</span>
+        </div>
+        <h3>Dienst 3</h3>
+        <p>
+          Beschrijving van de derde dienst. Highlight de unieke aspecten en voordelen van deze service.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```

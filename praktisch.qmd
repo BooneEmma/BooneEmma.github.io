@@ -1,0 +1,68 @@
+---
+title: "Praktisch"
+toc: false
+format:
+  html:
+    page-layout: full
+    css: styles.css
+---
+
+```{=html}
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!-- Navigation Section -->
+<nav>
+  <ul class="navbar">
+    <li><a href="over-mij.html">Over mij</a></li>
+    <li><a href="aanbod.html">Aanbod</a></li>
+    <li class="center-logo"><a href="index.html"><img src="icons/emma_written_varcon.png" alt="Logo"></a></li>
+    <li><a href="praktisch.html">Praktisch</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Praktisch Section -->
+<section class="content-section">
+  <div class="container">
+    <h2 class="section-title">Praktisch</h2>
+    <div class="practical-info">
+      <div class="info-block">
+        <h3>Locatie</h3>
+        <p>
+          <strong>Adres:</strong><br>
+          Straatnaam 123<br>
+          1234 AB Stad<br>
+          Nederland
+        </p>
+      </div>
+      <div class="info-block">
+        <h3>Bereikbaarheid</h3>
+        <p>
+          <strong>Met het openbaar vervoer:</strong><br>
+          Station X is op 5 minuten loopafstand.<br>
+          <strong>Met de auto:</strong><br>
+          Parkeren is mogelijk in de omgeving.
+        </p>
+      </div>
+      <div class="info-block">
+        <h3>Openingstijden</h3>
+        <p>
+          <strong>Maandag - Vrijdag:</strong> 9:00 - 17:00<br>
+          <strong>Zaterdag:</strong> Op afspraak<br>
+          <strong>Zondag:</strong> Gesloten
+        </p>
+      </div>
+      <div class="info-block">
+        <h3>Tarieven</h3>
+        <p>
+          De tarieven zijn afhankelijk van de gekozen dienst.<br>
+          Neem contact op voor een vrijblijvende offerte op maat.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```
