@@ -28,7 +28,7 @@ format:
 <section class="landing-section">
   <!-- Left Section: Eye-catching Image with Overlayed Quote -->
   <div class="landing-left">
-    <img src="images/emma_window.png" alt="Example Image" class="landing-image">
+    <img src="images\Emma_Boone_Psycholoog_gent.jpg" alt="self-portret" class="landing-image">
     <div class="landing-quote">
       <h1>"Niet luisteren naar je horloge, da werkt gewoon nie ..."</h1>
       <p>– Emma Boone</p>
