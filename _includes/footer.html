@@ -1,0 +1,86 @@
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <p class="footer-name">Emma Boone</p>
+      <p class="footer-motto">“Niet luisteren naar je horloge,<br>da werkt gewoon nie.”</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footernavigatie">
+      <p class="footer-label">Pagina's</p>
+      <a href="over-mij.html">Over mij</a>
+      <a href="aanbod.html">Aanbod</a>
+      <a href="praktisch.html">Praktisch</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="footer-contact">
+      <p class="footer-label">Contact</p>
+      <!-- TODO: echte contactgegevens invullen -->
+      <a href="mailto:hallo@emmaboone.be">hallo@emmaboone.be</a>
+      <a href="tel:+32400000000">+32 4 00 00 00 00</a>
+      <p class="footer-place">Praktijk in Gent · ook online</p>
+      <div class="footer-social">
+        <!-- TODO: echte sociale links -->
+        <a href="#" rel="noopener">LinkedIn</a>
+        <a href="#" rel="noopener">Instagram</a>
+        <a href="#" rel="noopener">Strava</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Emma Boone · Klinisch psycholoog <!-- TODO: visumnummer / erkenningsnummer Psychologencommissie --></p>
+    <p class="footer-crisis">Dringend hulp nodig? Bel <a href="tel:1813">1813</a> (Zelfmoordlijn) of <a href="tel:112">112</a>.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  // Mobile menu
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('siteNav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function () {
+      var open = document.body.classList.toggle('nav-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.setAttribute('aria-label', open ? 'Menu sluiten' : 'Menu openen');
+    });
+    nav.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') {
+        document.body.classList.remove('nav-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  // Active nav link
+  var here = location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.site-nav a').forEach(function (a) {
+    var target = a.getAttribute('href').split('/').pop();
+    if (target === here) a.classList.add('active');
+  });
+
+  // Header shadow on scroll
+  var header = document.getElementById('siteHeader');
+  if (header) {
+    var onScroll = function () {
+      header.classList.toggle('scrolled', window.scrollY > 8);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  // Scroll reveals
+  var revealed = document.querySelectorAll('.rv');
+  if ('IntersectionObserver' in window && revealed.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    revealed.forEach(function (el) { io.observe(el); });
+  } else {
+    revealed.forEach(function (el) { el.classList.add('in'); });
+  }
+})();
+</script>

@@ -68,3 +68,10 @@ $RECYCLE.BIN/
 *.bak
 *.swp
 *~.nib
+
+**/*.quarto_ipynb
+
+# Local-only assets and QA artifacts
+images/originals/
+_shots/
+9f060d1500a1cf01/

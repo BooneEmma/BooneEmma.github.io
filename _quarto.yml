@@ -6,25 +6,20 @@ publish:
   branch: gh-pages
 
 website:
-  title: "Emma Boone"
+  title: "Emma Boone — Sport- & Performancepsycholoog"
   site-url: "https://emmaboone.github.io"
-  navbar:
-    left:
-      - text: "Over mij"
-        href: over-mij.html
-      - text: "Aanbod"
-        href: aanbod.html
-      - text: "Praktisch"
-        href: praktisch.html
-      - text: "Contact"
-        href: contact.html
+
+lang: nl
 
 format:
   html:
     theme: none
     css: styles.css
     page-layout: full
+    include-in-header: _includes/head.html
+    include-before-body: _includes/nav.html
+    include-after-body: _includes/footer.html
 
 resources:
-  - images
+  - images/web
   - icons
