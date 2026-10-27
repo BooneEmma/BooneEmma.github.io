@@ -841,6 +841,18 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 .offer-row li::marker { color: var(--signal); }
 
+.offer-row .offer-sub {
+  margin: 1.4rem 0 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+
+/* Anchor targets clear the sticky header */
+.offer-row[id] { scroll-margin-top: 6rem; }
+
 .offer-row .photo-frame { box-shadow: 9px 9px 0 var(--green); }
 
 .offer-row.alt { grid-template-columns: minmax(260px, 400px) clamp(70px, 9vw, 120px) 1fr; }
