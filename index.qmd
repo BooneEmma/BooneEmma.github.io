@@ -65,25 +65,33 @@ toc: false
       <div class="lane-num" aria-hidden="true">01</div>
       <div>
         <h3>Sporters</h3>
-        <p>Atleten, coaches, clubs: Van competitie tot elite. Wedstrijdspanning, faalangst, blessures, comeback, of de vraag wie je bent naast de prestaties.</p>
+        <p>Atleten, coaches en clubs, van competitie tot elite. Wedstrijdspanning, faalangst, blessures, een comeback, of de vraag wie je bent naast de prestaties.</p>
       </div>
-      <a class="arrow-link" href="aanbod.html">Aanbod</a>
     </div>
     <div class="lane rv rv-1">
       <div class="lane-num" aria-hidden="true">02</div>
       <div>
         <h3>Performers</h3>
-        <p>Muzikanten, theater, chefs: Deadlines, podiumangst, publicatiedruk, presteren in een omgeving die nooit pauze lijkt te nemen.</p>
+        <p>Muzikanten, dansers, acteurs en chefs. Podiumangst, audities, premièrestress en presteren op het moment dat het moet.</p>
       </div>
-      <a class="arrow-link" href="aanbod.html">Aanbod</a>
     </div>
     <div class="lane rv rv-2">
       <div class="lane-num" aria-hidden="true">03</div>
       <div>
-        <h3>Iedereen onder druk</h3>
-        <p>Je hoeft geen medaille na te jagen. Wie op het werk, op een podium of gewoon in het leven beter met druk wil omgaan, is even welkom.</p>
+        <h3>Professionals</h3>
+        <p>Ondernemers, leidinggevenden en iedereen met een veeleisende job. Deadlines, verantwoordelijkheid, beslissen onder druk en het risico op een burn-out.</p>
       </div>
-      <a class="arrow-link" href="aanbod.html">Aanbod</a>
+    </div>
+    <div class="lane rv rv-3">
+      <div class="lane-num" aria-hidden="true">04</div>
+      <div>
+        <h3>Psychologische begeleiding</h3>
+        <!-- TODO: lijst afstemmen op waar Emma effectief voor opgeleid is -->
+        <p>Ook los van presteren kan je bij mij terecht. Bij angst, somberheid, trauma, eetproblemen, of wanneer je gewoon het gevoel hebt vast te lopen.</p>
+      </div>
+    </div>
+    <div class="cards-cta rv">
+      <a class="btn btn-ghost" href="aanbod.html">Bekijk het aanbod</a>
     </div>
   </div>
 </section>
@@ -95,48 +103,6 @@ toc: false
     Druk verdwijnt niet. Je leert er wel anders mee omgaan.
     <!-- <cite>Emma Boone</cite> -->
   </blockquote>
-</section>
-
-<!-- ===== AANBOD TEASER ===== -->
-<section class="section">
-  <div class="section-head rv">
-    <p class="kicker">Aanbod</p>
-    <h2 class="d-title">Waarmee ik je help</h2>
-  </div>
-  <div class="section-inner">
-    <div class="cards">
-      <a class="offer-card rv" href="aanbod.html">
-        <figure><img class="bw" src="images/web/spikes.jpg" alt="Spikes van een atlete, klaar aan de start" loading="lazy"></figure>
-        <div class="offer-card-body">
-          <span class="offer-card-num">01</span>
-          <h3>Individuele begeleiding</h3>
-          <p>Eén-op-één voor sporters, studenten en doctorandi. Evidence-based, met ACT en EMDR waar zinvol.</p>
-          <span class="faux-link">Meer over individueel →</span>
-        </div>
-      </a>
-      <a class="offer-card rv rv-1" href="aanbod.html">
-        <figure><img class="bw" src="images/web/team-huddle.jpg" alt="Basketbalteam in een time-out huddle" loading="lazy"></figure>
-        <div class="offer-card-body">
-          <span class="offer-card-num">02</span>
-          <h3>Teams &amp; clubs</h3>
-          <p>Teamdynamiek, communicatie en druk als groep leren dragen. Ook ondersteuning voor coaches.</p>
-          <span class="faux-link">Meer over teams →</span>
-        </div>
-      </a>
-      <a class="offer-card rv rv-2" href="aanbod.html">
-        <figure><img class="bw" src="images/web/podium.jpg" alt="Podiumceremonie met bloemen op een indoor atletiekmeeting" loading="lazy"></figure>
-        <div class="offer-card-body">
-          <span class="offer-card-num">03</span>
-          <h3>Lezingen &amp; workshops</h3>
-          <p>Voor clubs, federaties, scholen en universiteiten. Over druk, motivatie, faalangst en herstel.</p>
-          <span class="faux-link">Meer over workshops →</span>
-        </div>
-      </a>
-    </div>
-    <div class="cards-cta rv">
-      <a class="btn btn-ghost" href="aanbod.html">Volledig aanbod</a>
-    </div>
-  </div>
 </section>
 
 <!-- ===== OVER MIJ TEASER ===== -->
@@ -176,5 +142,3 @@ toc: false
 
 </main>
 ```
-
-MARK_INDEX
