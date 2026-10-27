@@ -31,7 +31,7 @@ toc: false
 
     <div class="hero-photo">
       <figure class="photo-frame" style="margin:0">
-        <img src="images/originals/DSCF8499.JPG" alt="Emma Boone loopt een wedstrijd, in kleur tussen een zwart-witte menigte" fetchpriority="high">
+        <img src="images/web/hero.webp" width="1000" height="1500" alt="Close-up van Emma Boone met vlecht en marathonborstnummer, in het shirt van het All In Racing Team" fetchpriority="high">
         <figcaption class="photo-caption">
           <span>Focus on winning the contest with yourself..</span>
           <span class="tag">ALL IN</span>
@@ -86,8 +86,7 @@ toc: false
       <div class="lane-num" aria-hidden="true">04</div>
       <div>
         <h3>Psychologische begeleiding</h3>
-        <!-- TODO: lijst afstemmen op waar Emma effectief voor opgeleid is -->
-        <p>Ook los van presteren kan je bij mij terecht. Bij angst, somberheid, trauma, eetproblemen, of wanneer je gewoon het gevoel hebt vast te lopen.</p>
+        <p>Ook los van presteren kan je bij mij terecht. Bij rouw, identiteit, trauma, perfectionisme, of wanneer je gewoon het gevoel hebt vast te lopen.</p>
       </div>
     </div>
     <div class="cards-cta rv">
