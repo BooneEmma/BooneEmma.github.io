@@ -22,17 +22,27 @@ toc: false
 <section class="section">
   <div class="section-inner">
 
-    <div class="offer-row rv">
+    <div class="offer-row rv" id="individueel">
       <div class="lane-num" aria-hidden="true">01</div>
       <div>
-        <h3>Individuele begeleiding voor sporters</h3>
-        <p>Eén-op-één werken aan wat jou tegenhoudt of net vooruit kan duwen. Voor jeugdtalent, amateurs met ambitie en elitesporters.</p>
+        <h3>Individuele begeleiding</h3>
+        <p>Eén-op-één, in de praktijk, online of in beweging. Voor sporters, performers en professionals, en voor iedereen die psychologische ondersteuning zoekt.</p>
+        <p class="offer-sub">Presteren</p>
         <ul>
-          <li>Wedstrijdspanning en faalangst</li>
+          <li>Wedstrijdspanning, podiumangst en faalangst</li>
           <li>Blessure, revalidatie en de comeback</li>
-          <li>Overtraining, herstel en balans</li>
+          <li>Overtraining, herstel en burn-out</li>
           <li>Perfectionisme en zelfvertrouwen</li>
-          <li>Identiteit naast de sport</li>
+          <li>Identiteit naast je sport of carrière</li>
+        </ul>
+        <p class="offer-sub">Psychologische begeleiding</p>
+        <!-- TODO: lijst afstemmen op waar Emma effectief voor opgeleid is -->
+        <ul>
+          <li>Angst en piekeren</li>
+          <li>Somberheid</li>
+          <li>Trauma, met EMDR waar zinvol</li>
+          <li>Eetproblemen</li>
+          <li>Vastlopen in je leven of je werk</li>
         </ul>
       </div>
       <figure class="photo-frame" style="margin:0">
@@ -41,59 +51,40 @@ toc: false
       </figure>
     </div>
 
-    <div class="offer-row alt rv">
-      <figure class="photo-frame" style="margin:0">
-        <img class="bw" src="images/web/cyclist.jpg" alt="Eenzame wielrenner van bovenaf, in volle inspanning" loading="lazy">
-        <figcaption class="photo-caption"><span>Een doctoraat is een tijdrit.</span></figcaption>
-      </figure>
-      <div class="lane-num" aria-hidden="true">02</div>
-      <div>
-        <h3>Studenten &amp; doctorandi</h3>
-        <p>Presteren in een omgeving die nooit pauze lijkt te nemen. Kortdurend en oplossingsgericht waar het kan, dieper waar het moet.</p>
-        <ul>
-          <li>Prestatiedruk, examens en deadlines</li>
-          <li>Uitstelgedrag en planning</li>
-          <li>Perfectionisme en twijfel</li>
-          <li>Presenteren, publiceren en verdedigen</li>
-          <li>Balans tussen onderzoek en leven</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="offer-row rv">
-      <div class="lane-num" aria-hidden="true">03</div>
-      <div>
-        <h3>Teams &amp; clubs</h3>
-        <p>Een team is meer dan de som van zijn spelers. Samen werken aan hoe jullie communiceren, omgaan met druk en elkaar beter maken.</p>
-        <ul>
-          <li>Teamdynamiek en communicatie</li>
-          <li>Omgaan met druk als groep</li>
-          <li>Ondersteuning en sparring voor coaches</li>
-          <li>Mentale vaardigheden trainen op het veld</li>
-        </ul>
-      </div>
+    <div class="offer-row alt rv" id="groepen">
       <figure class="photo-frame" style="margin:0">
         <img class="bw" src="images/web/team-huddle.jpg" alt="Basketbalteam in een huddle tijdens een time-out" loading="lazy">
         <figcaption class="photo-caption"><span>De time-out is soms het belangrijkste moment van de match.</span></figcaption>
       </figure>
+      <div class="lane-num" aria-hidden="true">02</div>
+      <div>
+        <h3>Groepen &amp; teams</h3>
+        <p>Een team is meer dan de som van zijn spelers. Voor sportteams, clubs, ensembles en organisaties die samen willen werken aan hoe ze communiceren, omgaan met druk en elkaar beter maken.</p>
+        <ul>
+          <li>Teamdynamiek en communicatie</li>
+          <li>Omgaan met druk als groep</li>
+          <li>Ondersteuning en sparring voor coaches en leidinggevenden</li>
+          <li>Mentale vaardigheden trainen op het veld of op de werkvloer</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="offer-row alt rv">
-      <figure class="photo-frame" style="margin:0">
-        <img class="bw" src="images/web/podium.jpg" alt="Podiumceremonie met bloemen op een indoor meeting" loading="lazy">
-        <figcaption class="photo-caption"><span>Kennis deel je het best hardop.</span></figcaption>
-      </figure>
-      <div class="lane-num" aria-hidden="true">04</div>
+    <div class="offer-row rv" id="workshops">
+      <div class="lane-num" aria-hidden="true">03</div>
       <div>
-        <h3>Lezingen &amp; workshops</h3>
-        <p>Interactieve sessies op maat van jouw club, federatie, school, universiteit of organisatie.</p>
+        <h3>Workshops &amp; lezingen</h3>
+        <p>Op aanvraag. Interactieve sessies op maat van jouw club, federatie, school, universiteit of organisatie.</p>
         <ul>
           <li>Omgaan met druk en faalangst</li>
           <li>Motivatie en doelen stellen</li>
           <li>Herstel, slaap en belastbaarheid</li>
-          <li>Mentaal welzijn in en naast de sport</li>
+          <li>Mentaal welzijn in en naast de sport of het werk</li>
         </ul>
       </div>
+      <figure class="photo-frame" style="margin:0">
+        <img class="bw" src="images/web/podium.jpg" alt="Podiumceremonie met bloemen op een indoor meeting" loading="lazy">
+        <figcaption class="photo-caption"><span>Kennis deel je het best hardop.</span></figcaption>
+      </figure>
     </div>
 
   </div>
