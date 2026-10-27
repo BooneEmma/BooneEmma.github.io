@@ -106,7 +106,7 @@ toc: false
       <div class="step rv rv-1">
         <div class="step-num" aria-hidden="true">02</div>
         <h3>Plan</h3>
-        <p>Samen leggen we doelen vast en kiezen we een aanpak die bij jou past. Concreet en haalbaar, geen vage beloftes.</p>
+        <p>Samen leggen we doelen vast en kiezen we een aanpak die bij jou past. Concreet en haalbaar.</p>
       </div>
       <div class="step rv rv-2">
         <div class="step-num" aria-hidden="true">03</div>
@@ -122,7 +122,7 @@ toc: false
   <img class="band-img" src="images/web/river-swim.jpg" alt="" loading="lazy">
   <blockquote class="rv">
     Soms moet je eerst tegen de stroom in.
-    <cite>Emma Boone</cite>
+    <cite>Emma</cite>
   </blockquote>
 </section>
 

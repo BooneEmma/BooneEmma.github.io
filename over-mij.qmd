@@ -30,12 +30,11 @@ toc: false
       </figcaption>
     </figure>
     <div class="rv rv-1">
-      <!-- TODO: bio nalezen en aanvullen met juiste details -->
       <p>
-        Ik ben Emma Boone, klinisch psycholoog met een specialisatie in sport- en
-        prestatiepsychologie. In mijn praktijk in Gent begeleid ik sporters van
-        jeugdtalent tot elite, en iedereen die in een veeleisende omgeving wil
-        blijven staan.
+        Ik ben Emma Boone, klinisch psycholoog met een specialisatie in sport- en prestatiepsychologie.  
+      </p>
+      <p>
+        <b>Sport en psychologie</b> zijn twee passies die me al van jongs af aan bezighouden.
       </p>
       <p>
         Daarnaast werk ik als studentenpsycholoog aan de Universiteit Gent, waar ik
