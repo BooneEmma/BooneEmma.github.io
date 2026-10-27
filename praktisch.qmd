@@ -21,10 +21,14 @@ toc: false
     <div class="info-grid">
       <div class="info-block rv">
         <h3>Locatie</h3>
-        <!-- TODO: echt adres invullen -->
         <p>
-          <strong>Praktijk in Gent</strong><br>
-          Straatnaam 1<br>
+          <strong>Praktijk Tondel- Huis voor psychotherapie in Gent</strong><br>
+          Stropstraat 15<br>
+          9000 Gent
+        </p>
+        <p>
+          <strong>Praktijk Drongen</strong><br>
+          Drongen<br>
           9000 Gent
         </p>
         <p>Vlot bereikbaar met de fiets en het openbaar vervoer. Sessies kunnen ook online doorgaan.</p>
@@ -37,15 +41,14 @@ toc: false
       </div>
       <div class="info-block rv rv-2">
         <h3>Tarieven</h3>
-        <!-- TODO: tarieven bevestigen -->
-        <p><strong>Individuele sessie:</strong> € 60</p>
+        <p><strong>Individuele sessie:</strong> € 80</p>
         <p><strong>Teams, lezingen en workshops:</strong> op aanvraag.</p>
-        <p>Als klinisch psycholoog komt een deel van de sessies mogelijk in aanmerking voor terugbetaling via je mutualiteit.</p>
+        <p>Ik ben niet geconventioneerd, maar het ziekenfonds betaalt je een deel terug. Via <a href="https://www.vind-een-psycholoog.be/info/terugbetaling-psychotherapie.html" target="_blank" rel="noopener">deze link</a> kan je daarover meer info terugvinden.</p>
       </div>
       <div class="info-block rv rv-3">
         <h3>Annuleren</h3>
         <p>Kosteloos tot 24 uur op voorhand.</p>
-        <p>Later annuleren of niet komen opdagen wordt aangerekend. Een wedstrijd skip je ook niet zonder verwittigen.</p>
+        <p>Later annuleren of niet komen opdagen wordt aangerekend.</p>
       </div>
     </div>
   </div>
@@ -65,7 +68,7 @@ toc: false
       </details>
       <details>
         <summary>Wordt een sessie terugbetaald?</summary>
-        <p>De meeste mutualiteiten voorzien een gedeeltelijke terugbetaling voor sessies bij een klinisch psycholoog. Het bedrag en het aantal sessies verschillen per mutualiteit. Check dit even bij de jouwe.</p>
+        <p>Gedeeltelijk. Ik ben niet geconventioneerd, maar het ziekenfonds betaalt je een deel terug. Het bedrag en het aantal sessies verschillen per ziekenfonds. Meer info vind je <a href="https://www.vind-een-psycholoog.be/info/terugbetaling-psychotherapie.html" target="_blank" rel="noopener">via deze link</a>.</p>
       </details>
       <details>
         <summary>Kan ik ook online terecht?</summary>
