@@ -20,21 +20,20 @@ toc: false
         <span class="line line-serif"><span>psycholoog</span></span>
       </h1>
       <p class="hero-lede">
-        Voor sporters, studenten en doctorandi die willen presteren op de momenten
-        die ertoe doen, zonder eraan onderdoor te gaan.
+        Psychologische ondersteuning in alle mogelijke facetten: van begeleiding om beter grip te krijgen op je leven, tot vaardigheden die je op topniveau brengen.
       </p>
       <div class="hero-actions">
         <a class="btn" href="contact.html">Maak een afspraak</a>
         <a class="btn btn-ghost" href="aanbod.html">Bekijk het aanbod</a>
       </div>
-      <p class="hero-meta">Praktijk in Gent <span class="sep">·</span> ook online <span class="sep">·</span> NL / EN</p>
+      <p class="hero-meta">Praktijk in Gent/Drongen <span class="sep">·</span> ook online <span class="sep">·</span> NL / EN</p>
     </div>
 
     <div class="hero-photo">
       <figure class="photo-frame" style="margin:0">
-        <img src="images/web/hero-marathon.jpg" alt="Emma Boone loopt een wedstrijd, in kleur tussen een zwart-witte menigte" fetchpriority="high">
+        <img src="images/originals/DSCF8499.JPG" alt="Emma Boone loopt een wedstrijd, in kleur tussen een zwart-witte menigte" fetchpriority="high">
         <figcaption class="photo-caption">
-          <span>In koers is alles grijs, behalve waar je focus zit.</span>
+          <span>Focus on winning the contest with yourself..</span>
           <span class="tag">ALL IN</span>
         </figcaption>
       </figure>
@@ -47,10 +46,10 @@ toc: false
 <div class="ticker" aria-hidden="true">
   <div class="ticker-track">
     <div class="ticker-group">
-      <span>Focus</span><span>Omgaan met druk</span><span>Zelfvertrouwen</span><span>Veerkracht</span><span>Motivatie</span><span>Herstel</span><span>Flow</span><span>Teamdynamiek</span>
+      <span>Focus</span><span>Omgaan met druk</span><span>Zelfvertrouwen</span><span>Veerkracht</span><span>Motivatie</span><span>Herstel</span><span>Flow</span><span>Teamdynamiek</span><span>Identiteit</span>
     </div>
     <div class="ticker-group">
-      <span>Focus</span><span>Omgaan met druk</span><span>Zelfvertrouwen</span><span>Veerkracht</span><span>Motivatie</span><span>Herstel</span><span>Flow</span><span>Teamdynamiek</span>
+      <span>Focus</span><span>Omgaan met druk</span><span>Zelfvertrouwen</span><span>Veerkracht</span><span>Motivatie</span><span>Herstel</span><span>Flow</span><span>Teamdynamiek</span><span>Identiteit</span>
     </div>
   </div>
 </div>
@@ -66,15 +65,15 @@ toc: false
       <div class="lane-num" aria-hidden="true">01</div>
       <div>
         <h3>Sporters</h3>
-        <p>Van jeugdtalent tot elite. Wedstrijdspanning, faalangst, blessures, de comeback, of de vraag wie je bent naast je sport.</p>
+        <p>Atleten, coaches, clubs: Van competitie tot elite. Wedstrijdspanning, faalangst, blessures, comeback, of de vraag wie je bent naast de prestaties.</p>
       </div>
       <a class="arrow-link" href="aanbod.html">Aanbod</a>
     </div>
     <div class="lane rv rv-1">
       <div class="lane-num" aria-hidden="true">02</div>
       <div>
-        <h3>Studenten &amp; doctorandi</h3>
-        <p>Deadlines, examens, publicatiedruk, de verdediging. Presteren in een omgeving die nooit pauze lijkt te nemen.</p>
+        <h3>Performers</h3>
+        <p>Muzikanten, theater, chefs: Deadlines, podiumangst, publicatiedruk, presteren in een omgeving die nooit pauze lijkt te nemen.</p>
       </div>
       <a class="arrow-link" href="aanbod.html">Aanbod</a>
     </div>
@@ -94,7 +93,7 @@ toc: false
   <img class="band-img" src="images/web/swim-start.jpg" alt="" loading="lazy">
   <blockquote class="rv">
     Druk verdwijnt niet. Je leert er wel anders mee omgaan.
-    <cite>Emma Boone</cite>
+    <!-- <cite>Emma Boone</cite> -->
   </blockquote>
 </section>
 
@@ -177,3 +176,5 @@ toc: false
 
 </main>
 ```
+
+MARK_INDEX
