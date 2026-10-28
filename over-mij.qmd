@@ -26,30 +26,32 @@ toc: false
       <img src="images/web/portret.jpg" alt="Portret van Emma Boone">
       <figcaption class="photo-caption">
         <span>Emma Boone, Gent</span>
-        <span class="tag">ALL IN</span>
+        <!-- <span class="tag">ALL IN</span> -->
       </figcaption>
     </figure>
-    <div class="rv rv-1">
+    <div class="meet-text rv rv-1">
       <p>
-        Ik ben Emma Boone, klinisch psycholoog met een specialisatie in sport- en prestatiepsychologie.  
+        Ik ben Emma Boone, klinisch psycholoog gespecialiseerd in sport- en
+        prestatiepsychologie. <b>Sport en psychologie</b> zijn al van jongs af aan
+        mijn twee passies.
       </p>
       <p>
-        <b>Sport en psychologie</b> zijn twee passies die me al van jongs af aan bezighouden.
+        Als klinisch psycholoog boeiden de drive en veerkracht van mensen me telkens
+        opnieuw. Als studentenpsycholoog ontdekte ik thema's als concentratie,
+        motivatie en stresshantering. Samen met mijn passie voor sport leidde dat me
+        naar de sportpsychologie en een extra postgraduaat.
       </p>
       <p>
-        Daarnaast werk ik als studentenpsycholoog aan de Universiteit Gent, waar ik
-        studenten en doctorandi begeleid bij faalangst, uitstelgedrag, perfectionisme
-        en prestatiedruk. Een thesis, een doctoraatsverdediging of een examenreeks
-        is óók topsport, alleen zonder publiek dat applaudisseert.
-      </p>
-      <p>
-        Zelf sta ik geregeld aan een startlijn als loopster, en je vindt me vaak in de
-        bergen met een rugzak. Wedstrijdspanning, twijfel op kilometer 30 en de kunst
-        van het herstellen ken ik dus niet alleen uit de handboeken.
+        Zelf sta ik geregeld aan de startlijn als loopster, of trek ik de bergen in.
+        Wedstrijdspanning en twijfel op kilometer 30 ken ik dus niet alleen uit de
+        handboeken. Ambitieus zijn én jezelf blijven is ook voor mij zoeken, en
+        daar help ik je graag bij.
       </p>
       <ul class="meet-facts">
-        <li>Gedragstherapeutisch kader</li>
-        <li>ACT &amp; EMDR</li>
+        <li>Gedragstherapie</li>
+        <li>Systeemtherapie</li>
+        <li>EMDR</li>
+        <li>ACT</li>
         <li>Hartcoherentie</li>
         <li>NL / EN</li>
       </ul>
@@ -112,30 +114,6 @@ toc: false
   </div>
 </section>
 
-<!-- ===== AANPAK ===== -->
-<section class="section">
-  <div class="section-head rv">
-    <p class="kicker">Aanpak</p>
-    <h2 class="d-title">Hoe ik werk</h2>
-  </div>
-  <div class="section-inner">
-    <div class="approach">
-      <div class="approach-block rv">
-        <h3>Evidence-based</h3>
-        <p>Wetenschappelijk onderbouwde methodes binnen een gedragstherapeutisch kader, met ACT en EMDR waar dat zinvol is. Geen goeroepraat.</p>
-      </div>
-      <div class="approach-block rv rv-1">
-        <h3>In beweging</h3>
-        <p>Sessies in de praktijk, maar even goed al wandelend, op het veld of op de fiets. Soms praat een mens beter met de benen in gang.</p>
-      </div>
-      <div class="approach-block rv rv-2">
-        <h3>De mens eerst</h3>
-        <p>Je bent meer dan je sport, je thesis of je ranking. We werken aan prestaties, zonder te vergeten wie er presteert.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ===== MOTTO BAND ===== -->
 <section class="band">
   <img class="band-img bw" src="images/web/scoreboard.jpg" alt="" loading="lazy">
@@ -154,3 +132,4 @@ toc: false
 
 </main>
 ```
+

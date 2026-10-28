@@ -56,7 +56,7 @@ body::after {
 
 ::selection { background: var(--green); color: var(--paper); }
 
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 
 a { color: var(--green); }
 
@@ -744,11 +744,18 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 .meet {
   display: grid;
   grid-template-columns: minmax(280px, 420px) 1fr;
-  gap: clamp(2.5rem, 6vw, 5rem);
+  gap: clamp(2.5rem, 4vw, 5rem);
   align-items: center;
 }
 
 .meet .photo-frame { box-shadow: 12px 12px 0 var(--green); }
+
+.meet-text p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.meet-facts:last-child { margin-bottom: 0; }
 
 .meet-facts {
   display: flex;
@@ -1218,6 +1225,12 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 .rv-4 { transition-delay: 0.32s; }
 
 /* ---------- Responsive ---------- */
+/* Stack the meet block before the text column becomes taller than the photo */
+@media (max-width: 1140px) {
+  .meet { grid-template-columns: 1fr; }
+  .meet .photo-frame { width: min(100%, 420px); }
+}
+
 @media (max-width: 980px) {
   .hero-grid { grid-template-columns: 1fr; }
   .hero-photo { justify-self: start; width: min(100%, 460px); }
@@ -1233,9 +1246,6 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
   .offer-row .lane-num { font-size: 2.6rem; }
   .offer-row.alt .photo-frame { order: 0; box-shadow: 9px 9px 0 var(--green); }
   .offer-row .photo-frame { width: min(100%, 460px); }
-
-  .meet { grid-template-columns: 1fr; }
-  .meet .photo-frame { width: min(100%, 420px); }
 
   .contact-grid { grid-template-columns: 1fr; }
 }
