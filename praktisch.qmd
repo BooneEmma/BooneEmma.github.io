@@ -29,7 +29,7 @@ toc: false
         <p>
           <strong>Praktijk Drongen</strong><br>
           Drongen<br>
-          9000 Gent
+          9031 Gent
         </p>
         <p>Vlot bereikbaar met de fiets en het openbaar vervoer. Sessies kunnen ook online doorgaan.</p>
       </div>
