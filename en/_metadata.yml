@@ -1,0 +1,6 @@
+lang: en
+format:
+  html:
+    include-in-header: ../_includes/head-en.html
+    include-before-body: ../_includes/nav-en.html
+    include-after-body: ../_includes/footer-en.html

@@ -229,7 +229,32 @@ p { margin: 0 0 1rem 0; }
   display: flex;
   align-items: center;
   gap: clamp(1.2rem, 2.5vw, 2.2rem);
+  margin-left: auto;
 }
+
+/* ---------- Language switch (NL | EN) ---------- */
+.lang-switch {
+  flex: none;
+  display: flex;
+  align-items: stretch;
+  border: 2px solid var(--ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+.lang-switch span {
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 0.55rem;
+  color: var(--ink-soft);
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.lang-switch .is-current { background: var(--ink); color: var(--paper); }
+
+.lang-switch:hover span:not(.is-current) { color: var(--paper); background: var(--green); }
 
 .site-nav a {
   position: relative;
@@ -1333,13 +1358,16 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 @media (max-width: 760px) {
   .nav-toggle { display: block; }
+  .site-header { gap: 0.7rem; }
+  .lang-switch { margin-left: auto; height: 2.8rem; }
 
   .brand-name { font-size: 1.35rem; }
-  .brand-role { font-size: 0.68rem; letter-spacing: 0.04em; }
+  .brand { min-width: 0; }
+  .brand-role { font-size: 0.68rem; letter-spacing: 0.04em; white-space: normal; }
 }
 
 @media (max-width: 360px) {
-  .brand-role { font-size: 0.6rem; letter-spacing: 0.02em; }
+  .lang-switch span { padding: 0.35rem 0.4rem; }
 }
 
 @media (max-width: 760px) {

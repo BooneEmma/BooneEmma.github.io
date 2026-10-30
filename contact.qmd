@@ -1,6 +1,13 @@
 ---
 title: "Contact"
 toc: false
+include-in-header:
+  - _includes/head-nl.html
+  - text: |
+      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/contact.html">
+      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/contact.html">
+include-before-body: _includes/nav.html
+include-after-body: _includes/footer.html
 ---
 
 ```{=html}
@@ -40,7 +47,9 @@ toc: false
     <div class="contact-form rv rv-1">
       <h3>Stuur een bericht</h3>
       <p class="form-intro">Deel hier nog geen gevoelige details, die bespreken we in een eerste gesprek.</p>
-      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST"
+            data-msg-sending="Bezig met versturen…"
+            data-msg-error="Er ging iets mis. Probeer het later opnieuw of stuur een bericht via LinkedIn.">
         <!-- TODO: access key van web3forms.com invullen (mag publiek staan) -->
         <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
         <input type="hidden" name="subject" value="Nieuw bericht via de website">
@@ -84,35 +93,4 @@ toc: false
 
 </main>
 
-<script>
-(function () {
-  var form = document.getElementById('contactForm');
-  var status = form.querySelector('.form-status');
-  var button = form.querySelector('button[type="submit"]');
-  var thanks = document.querySelector('.form-thanks');
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    button.disabled = true;
-    status.textContent = 'Bezig met versturen…';
-
-    fetch(form.action, {
-      method: 'POST',
-      headers: { 'Accept': 'application/json' },
-      body: new FormData(form)
-    })
-      .then(function (res) { return res.json(); })
-      .then(function (data) {
-        if (!data.success) throw new Error(data.message);
-        form.hidden = true;
-        document.querySelector('.form-intro').hidden = true;
-        thanks.hidden = false;
-      })
-      .catch(function () {
-        status.textContent = 'Er ging iets mis. Probeer het later opnieuw of stuur een bericht via LinkedIn.';
-        button.disabled = false;
-      });
-  });
-})();
-</script>
 ```

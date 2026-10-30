@@ -1,0 +1,139 @@
+---
+title: "Services"
+toc: false
+include-in-header:
+  - text: |
+      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/aanbod.html">
+      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/services.html">
+---
+
+```{=html}
+<main>
+
+<!-- ===== PAGE HEAD ===== -->
+<section class="page-head">
+  <div class="page-head-inner">
+    <p class="kicker">Services</p>
+    <h1 class="d-title">What I offer</h1>
+    <p class="lede">
+      No standard programmes. We start from your starting line
+      and build from there, step by step.
+    </p>
+  </div>
+</section>
+
+<!-- ===== OFFER ROWS ===== -->
+<section class="section">
+  <div class="section-inner">
+
+    <div class="offer-row rv" id="individual">
+      <div class="lane-num" aria-hidden="true">01</div>
+      <div>
+        <h3>Individual support</h3>
+        <p>One-on-one, at the practice, online or on the move. For athletes, performers and professionals, and for anyone looking for psychological support.</p>
+        <p class="offer-sub">Performance</p>
+        <ul>
+          <li>Competition nerves, stage fright and fear of failure</li>
+          <li>Injury, rehabilitation and the comeback</li>
+          <li>Overtraining, recovery and burnout</li>
+          <li>Perfectionism and self-confidence</li>
+          <li>Identity beyond your sport or career</li>
+        </ul>
+        <p class="offer-sub">Psychological support</p>
+        <ul>
+          <li>Anxiety and worrying</li>
+          <li>Low mood</li>
+          <li>Trauma, with EMDR where appropriate</li>
+          <li>Eating problems</li>
+          <li>Feeling stuck in your life or your work</li>
+        </ul>
+      </div>
+      <figure class="photo-frame" style="margin:0">
+        <img class="bw" src="../images/web/spikes.jpg" alt="An athlete's spikes before the start" loading="lazy">
+        <figcaption class="photo-caption"><span>You don't get faster with your legs alone.</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="offer-row alt rv" id="groups">
+      <figure class="photo-frame" style="margin:0">
+        <img class="bw" src="../images/web/team-huddle.jpg" alt="Basketball team in a huddle during a time-out" loading="lazy">
+        <figcaption class="photo-caption"><span>Sometimes the time-out is the most important moment of the match.</span></figcaption>
+      </figure>
+      <div class="lane-num" aria-hidden="true">02</div>
+      <div>
+        <h3>Groups &amp; teams</h3>
+        <p>A team is more than the sum of its players. For sports teams, clubs, ensembles and organisations that want to work together on how they communicate, handle pressure and make each other better.</p>
+        <ul>
+          <li>Team dynamics and communication</li>
+          <li>Handling pressure as a group</li>
+          <li>Support and sparring for coaches and managers</li>
+          <li>Training mental skills on the field or in the workplace</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="offer-row rv" id="workshops">
+      <div class="lane-num" aria-hidden="true">03</div>
+      <div>
+        <h3>Workshops &amp; talks</h3>
+        <p>On request. Interactive sessions tailored to your club, federation, school, university or organisation.</p>
+        <ul>
+          <li>Handling pressure and fear of failure</li>
+          <li>Motivation and goal setting</li>
+          <li>Recovery, sleep and load capacity</li>
+          <li>Mental well-being in and beyond sport or work</li>
+        </ul>
+      </div>
+      <figure class="photo-frame" style="margin:0">
+        <img class="bw" src="../images/web/podium.jpg" alt="Podium ceremony with flowers at an indoor meeting" loading="lazy">
+        <figcaption class="photo-caption"><span>Knowledge is best shared out loud.</span></figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="section" style="background: var(--paper-deep); border-block: 1px solid var(--line);">
+  <div class="section-head rv">
+    <p class="kicker">In practice</p>
+    <h2 class="d-title">How it works</h2>
+  </div>
+  <div class="section-inner">
+    <div class="steps">
+      <div class="step rv">
+        <div class="step-num" aria-hidden="true">01</div>
+        <h3>Introduction</h3>
+        <p>A first conversation, with no obligations. We look at what is going on and whether we click. That last part is not a detail.</p>
+      </div>
+      <div class="step rv rv-1">
+        <div class="step-num" aria-hidden="true">02</div>
+        <h3>Plan</h3>
+        <p>Together we set goals and choose an approach that suits you. Concrete and achievable.</p>
+      </div>
+      <div class="step rv rv-2">
+        <div class="step-num" aria-hidden="true">03</div>
+        <h3>Getting started</h3>
+        <p>Sessions at the practice, online or on the move. We evaluate along the way and adjust where needed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== QUOTE BAND ===== -->
+<section class="band">
+  <img class="band-img" src="../images/web/river-swim.jpg" alt="" loading="lazy">
+  <blockquote class="rv">
+    Sometimes you first have to swim against the current.
+  </blockquote>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="start-band">
+  <p class="kicker rv">First step</p>
+  <h2 class="start-title rv rv-1">Where is your <em>starting line?</em></h2>
+  <a class="btn rv rv-2" href="contact.html">Book an introduction</a>
+</section>
+
+</main>
+```

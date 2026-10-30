@@ -1,0 +1,99 @@
+<script>
+(function () {
+  var isEN = document.documentElement.lang === 'en';
+
+  // Mobile menu
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('siteNav');
+  if (toggle && nav) {
+    var labelOpen = isEN ? 'Open menu' : 'Menu openen';
+    var labelClose = isEN ? 'Close menu' : 'Menu sluiten';
+    toggle.addEventListener('click', function () {
+      var open = document.body.classList.toggle('nav-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.setAttribute('aria-label', open ? labelClose : labelOpen);
+    });
+    nav.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') {
+        document.body.classList.remove('nav-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  // Active nav link
+  var here = location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.site-nav a').forEach(function (a) {
+    var target = a.getAttribute('href').split('/').pop();
+    if (target === here) a.classList.add('active');
+  });
+
+  // Language switch: point it at this page's translation (from the hreflang link in <head>)
+  var langSwitch = document.getElementById('langSwitch');
+  if (langSwitch) {
+    var alt = document.querySelector('link[rel="alternate"][hreflang="' + langSwitch.getAttribute('hreflang') + '"]');
+    if (alt) {
+      var file = new URL(alt.href).pathname.split('/').pop() || 'index.html';
+      langSwitch.href = (isEN ? '../' : 'en/') + file;
+    }
+  }
+
+  // Header shadow on scroll
+  var header = document.getElementById('siteHeader');
+  if (header) {
+    var onScroll = function () {
+      header.classList.toggle('scrolled', window.scrollY > 8);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  // Scroll reveals
+  var revealed = document.querySelectorAll('.rv');
+  if ('IntersectionObserver' in window && revealed.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    revealed.forEach(function (el) { io.observe(el); });
+  } else {
+    revealed.forEach(function (el) { el.classList.add('in'); });
+  }
+
+  // Contact form (Web3Forms): submit in place, show thanks or error
+  var form = document.getElementById('contactForm');
+  if (form) {
+    var status = form.querySelector('.form-status');
+    var button = form.querySelector('button[type="submit"]');
+    var intro = document.querySelector('.form-intro');
+    var thanks = document.querySelector('.form-thanks');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      button.disabled = true;
+      status.textContent = form.dataset.msgSending;
+
+      fetch(form.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      })
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (!data.success) throw new Error(data.message);
+          form.hidden = true;
+          if (intro) intro.hidden = true;
+          thanks.hidden = false;
+        })
+        .catch(function () {
+          status.textContent = form.dataset.msgError;
+          button.disabled = false;
+        });
+    });
+  }
+})();
+</script>
