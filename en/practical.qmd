@@ -1,0 +1,111 @@
+---
+title: "Practical"
+toc: false
+include-in-header:
+  - text: |
+      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/praktisch.html">
+      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/practical.html">
+---
+
+```{=html}
+<main>
+
+<!-- ===== PAGE HEAD ===== -->
+<section class="page-head">
+  <div class="page-head-inner">
+    <p class="kicker">Practical</p>
+    <h1 class="d-title">Practical info</h1>
+    <p class="lede">Clear agreements, no small print.</p>
+  </div>
+</section>
+
+<!-- ===== INFO ===== -->
+<section class="section">
+  <div class="section-inner">
+    <div class="info-grid">
+      <div class="info-block rv">
+        <h3>Location</h3>
+        <p>
+          <strong>Tondel – Huis voor psychotherapie, Ghent</strong><br>
+          Stropstraat 15<br>
+          9000 Gent
+        </p>
+        <p>
+          <strong>Drongen practice</strong><br>
+          Drongen<br>
+          9031 Gent
+        </p>
+        <p>Easy to reach by bike and public transport. Sessions can also take place online.</p>
+      </div>
+      <div class="info-block rv rv-1">
+        <h3>Sessions</h3>
+        <p><strong>Duration:</strong> 50 minutes</p>
+        <p><strong>Format:</strong> at the practice, online, or on the move (walking, on the field, on the bike).</p>
+        <p><strong>When:</strong> during the day, with a few evening slots per week.</p>
+      </div>
+      <div class="info-block rv rv-2">
+        <h3>Rates</h3>
+        <p><strong>Individual session:</strong> € 80</p>
+        <p><strong>Teams, talks and workshops:</strong> on request.</p>
+        <p>I am not a contracted (geconventioneerd) psychologist, but your health insurance fund (ziekenfonds) reimburses part of the cost. You can find more information <a href="https://www.vind-een-psycholoog.be/info/terugbetaling-psychotherapie.html" target="_blank" rel="noopener">via this link</a> (in Dutch).</p>
+      </div>
+      <div class="info-block rv rv-3">
+        <h3>Cancelling</h3>
+        <p>Free of charge up to 24 hours in advance.</p>
+        <p>Later cancellations or missed appointments are charged.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section" style="background: var(--paper-deep); border-block: 1px solid var(--line);">
+  <div class="section-head rv">
+    <p class="kicker">Frequently asked questions</p>
+    <h2 class="d-title">Good to know</h2>
+  </div>
+  <div class="section-inner">
+    <div class="faq rv">
+      <details>
+        <summary>Do I need a referral?</summary>
+        <p>No. You can book an appointment directly, without a referral from a doctor.</p>
+      </details>
+      <details>
+        <summary>Are sessions reimbursed?</summary>
+        <p>Partly. I am not a contracted psychologist, but your health insurance fund reimburses part of the cost. The amount and the number of sessions differ per fund. You can find more information <a href="https://www.vind-een-psycholoog.be/info/terugbetaling-psychotherapie.html" target="_blank" rel="noopener">via this link</a> (in Dutch).</p>
+      </details>
+      <details>
+        <summary>Can I also have sessions online?</summary>
+        <p>Yes. Sessions can take place fully or partly online, for example during internships, training camps or busy research periods.</p>
+      </details>
+      <details>
+        <summary>I don't do (competitive) sport. Can I still come?</summary>
+        <p>Of course. Performing under pressure is not limited to sport. Students, PhD candidates, musicians and professionals are just as welcome.</p>
+      </details>
+      <details>
+        <summary>How soon can I get an appointment?</summary>
+        <!-- TODO: realistische wachttijd bevestigen -->
+        <p>I aim to schedule a first conversation within two weeks.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== QUOTE BAND ===== -->
+<section class="band">
+  <img class="band-img bw" src="../images/web/allin-back.jpg" alt="" loading="lazy">
+  <blockquote class="rv">
+    Fighting the mind does not work. What works best is learning to focus it.
+    <cite>W. Timothy Gallwey, The Inner Game of Golf</cite>
+  </blockquote>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="start-band">
+  <p class="kicker rv">Any questions?</p>
+  <h2 class="start-title rv rv-1">Feel free to <em>ask.</em></h2>
+  <a class="btn rv rv-2" href="contact.html">Get in touch</a>
+</section>
+
+</main>
+```

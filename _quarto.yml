@@ -2,17 +2,22 @@ project:
   type: website
   render:
     - "*.qmd"
+    - "en/*.qmd"
 
 publish:
   method: gh-pages
   branch: gh-pages
 
 website:
-  title: "Emma Boone — Sport- & Performancepsycholoog"
+  # Kept language-neutral: Quarto appends it to every page title (NL and EN)
+  title: "Emma Boone"
   site-url: "https://booneemma.github.io"
 
 lang: nl
 
+# Nav, footer and language meta are set per language (Quarto concatenates
+# includes, so they cannot live here): Dutch pages in their front matter,
+# English pages in en/_metadata.yml.
 format:
   html:
     theme: none
@@ -20,8 +25,7 @@ format:
     page-layout: full
     anchor-sections: false
     include-in-header: _includes/head.html
-    include-before-body: _includes/nav.html
-    include-after-body: _includes/footer.html
+    include-after-body: _includes/scripts.html
 
 resources:
   - images/web

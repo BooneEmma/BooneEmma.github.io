@@ -1,6 +1,13 @@
 ---
 title: "Aanbod"
 toc: false
+include-in-header:
+  - _includes/head-nl.html
+  - text: |
+      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/aanbod.html">
+      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/services.html">
+include-before-body: _includes/nav.html
+include-after-body: _includes/footer.html
 ---
 
 ```{=html}
@@ -36,7 +43,6 @@ toc: false
           <li>Identiteit naast je sport of carrière</li>
         </ul>
         <p class="offer-sub">Psychologische begeleiding</p>
-        <!-- TODO: lijst afstemmen op waar Emma effectief voor opgeleid is -->
         <ul>
           <li>Angst en piekeren</li>
           <li>Somberheid</li>

@@ -1,0 +1,92 @@
+---
+title: "Contact"
+toc: false
+include-in-header:
+  - text: |
+      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/contact.html">
+      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/contact.html">
+---
+
+```{=html}
+<main>
+
+<!-- ===== PAGE HEAD ===== -->
+<section class="page-head">
+  <div class="page-head-inner">
+    <p class="kicker">Contact</p>
+    <h1 class="d-title">Contact</h1>
+    <p class="lede">Ready for the start? One message is enough.</p>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section">
+  <div class="section-inner contact-grid">
+
+    <div class="contact-list rv">
+      <div class="contact-item contact-places">
+        <h3>Practices</h3>
+        <p><strong>Tondel – Huis voor psychotherapie</strong><br>Stropstraat 15, 9000 Gent</p>
+        <p><strong>Drongen practice</strong><br>9031 Gent</p>
+        <p>Sessions are also possible online.</p>
+      </div>
+      <div class="contact-item">
+        <h3>Online</h3>
+        <p><a href="https://www.linkedin.com/in/emmaboone" target="_blank" rel="noopener">LinkedIn</a></p>
+      </div>
+      <p class="contact-note">
+        I reply within two working days.<br><br>
+        <strong>In crisis or thinking about suicide?</strong> Don't wait for an appointment.
+        Call <a href="tel:1813">1813</a> (Zelfmoordlijn, suicide prevention line) or <a href="tel:112">112</a> in an emergency.
+      </p>
+    </div>
+
+    <div class="contact-form rv rv-1">
+      <h3>Send a message</h3>
+      <p class="form-intro">Please don't share sensitive details here yet; we will discuss those in a first conversation.</p>
+      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST"
+            data-msg-sending="Sending…"
+            data-msg-error="Something went wrong. Please try again later or send a message via LinkedIn.">
+        <!-- TODO: access key van web3forms.com invullen (mag publiek staan) -->
+        <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
+        <input type="hidden" name="subject" value="Nieuw bericht via de website (Engelstalig)">
+        <input type="hidden" name="from_name" value="Website Emma Boone">
+        <!-- Without JavaScript, Web3Forms shows its own success page -->
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <input type="checkbox" name="botcheck" class="form-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-group">
+          <label for="role">I am</label>
+          <select id="role" name="role">
+            <option value="sporter">An athlete</option>
+            <option value="student">A student</option>
+            <option value="doctorandus">A PhD candidate</option>
+            <option value="coach">A coach or club</option>
+            <option value="andere">Something else</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="What would you like to work on? A few sentences are enough."></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <div class="form-thanks" hidden>
+        <p><strong>Thank you for your message!</strong></p>
+        <p>I will reply within two working days.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+```
