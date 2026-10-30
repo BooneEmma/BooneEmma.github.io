@@ -1254,6 +1254,24 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 .footer-bottom a { color: rgba(243, 240, 231, 0.75); }
 
+.footer-bottom .footer-crisis {
+  font-size: 0.95rem;
+  color: var(--paper);
+}
+
+/* Crisis numbers: large, bold tap targets */
+.footer-crisis a,
+.contact-note a[href^="tel:"] {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  margin: 0.15rem 0;
+  border: 1.5px solid currentColor;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-crisis a { color: var(--paper); }
+
 /* ---------- Scroll reveals ---------- */
 .rv {
   opacity: 0;
@@ -1298,7 +1316,14 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
   .nav-toggle { display: block; }
 
   .brand-name { font-size: 1.35rem; }
-  .brand-role { font-size: 0.56rem; letter-spacing: 0.16em; }
+  .brand-role { font-size: 0.68rem; letter-spacing: 0.04em; }
+}
+
+@media (max-width: 360px) {
+  .brand-role { font-size: 0.6rem; letter-spacing: 0.02em; }
+}
+
+@media (max-width: 760px) {
 
   .site-nav {
     position: fixed;
