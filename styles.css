@@ -898,36 +898,76 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 .step p { color: var(--ink-soft); margin: 0; }
 
-/* ---------- Splits / timeline (over-mij) ---------- */
-.splits { border-top: 1px solid var(--line); }
-
-.split {
+/* ---------- Opleiding & ervaring (over-mij) ---------- */
+.cv {
   display: grid;
-  grid-template-columns: clamp(90px, 12vw, 150px) 1fr;
-  gap: clamp(1rem, 3vw, 2.5rem);
-  padding: 1.7rem 0;
-  border-bottom: 1px solid var(--line);
-  transition: background 0.25s ease;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
 }
 
-.split:hover { background: rgba(46, 82, 55, 0.05); }
-
-.split-marker {
+.cv-col h3 {
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 1.35rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--green);
+  padding-bottom: 0.8rem;
+  margin-bottom: 0;
+  border-bottom: 2px solid var(--ink);
 }
 
-.split h3 {
-  font-size: 1.12rem;
-  font-weight: 700;
-  margin-bottom: 0.25rem;
+.cv-order {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 0.5rem 0 0;
 }
 
-.split p { margin: 0; color: var(--ink-soft); font-size: 0.98rem; }
+.cv-list { list-style: none; margin: 0; padding: 0; }
+
+.cv-list li {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.cv-year {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  color: var(--green);
+}
+
+.cv-list li.is-current {
+  background: rgba(46, 82, 55, 0.1);
+  box-shadow: inset 4px 0 0 var(--green);
+  margin-left: -0.9rem;
+  padding-left: 0.9rem;
+}
+
+.cv-list li.is-current .cv-year { text-transform: uppercase; }
+
+.cv-list li.is-current .cv-date { color: var(--green); font-weight: 700; }
+
+.cv-date {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 0.2rem;
+}
+
+.cv-list strong { display: block; font-size: 1.05rem; color: var(--ink); }
+
+.cv-list p { margin: 0.15rem 0 0; color: var(--ink-soft); font-size: 0.98rem; }
+
+@media (max-width: 760px) {
+  .cv { grid-template-columns: 1fr; }
+  .cv-col:last-child { order: -1; }
+}
 
 /* ---------- Approach blocks ---------- */
 .approach {

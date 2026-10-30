@@ -62,54 +62,157 @@ toc: false
 <!-- ===== PARCOURS ===== -->
 <section class="section" style="background: var(--paper-deep); border-block: 1px solid var(--line);">
   <div class="section-head rv">
-    <p class="kicker">Opleiding &amp; ervaring</p>
-    <h2 class="d-title">Het parcours</h2>
+    <p class="kicker">Achtergrond</p>
+    <h2 class="d-title">Opleiding &amp; ervaring</h2>
   </div>
-  <div class="section-inner">
-    <!-- TODO: jaartallen toevoegen -->
-    <div class="splits">
-      <div class="split rv">
-        <div class="split-marker">Split 01</div>
-        <div>
-          <h3>Master in de klinische psychologie</h3>
-          <p>Universiteit Gent</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 02</div>
-        <div>
-          <h3>Postgraduaat toegepaste sportpsychologie</h3>
-          <p>KU Leuven</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 03</div>
-        <div>
-          <h3>Sport &amp; Exercise Psychology</h3>
-          <p>Intensive course, University of Thessaly (GR)</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 04</div>
-        <div>
-          <h3>Studentenpsycholoog</h3>
-          <p>Universiteit Gent. Individuele begeleiding van studenten en doctorandi, kortdurend en oplossingsgericht.</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 05</div>
-        <div>
-          <h3>Eigen praktijk</h3>
-          <p>Sport- en performancepsychologie in Gent, voor sporters, studenten en al wie onder druk presteert.</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 06</div>
-        <div>
-          <h3>Bijscholingen</h3>
-          <p>ACT, EMDR (deel I &amp; II), hartcoherentiecoaching. Want ook psychologen blijven trainen.</p>
-        </div>
-      </div>
+  <div class="section-inner cv">
+    <div class="cv-col rv">
+      <h3>Opleiding</h3>
+      <p class="cv-order">Recentste bovenaan ↓</p>
+      <ul class="cv-list">
+        <li>
+          <span class="cv-year">2025</span>
+          <div>
+            <span class="cv-date">juni 2025</span>
+            <strong>ACT basisopleiding</strong>
+            <p>ACT academie</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2024</span>
+          <div>
+            <span class="cv-date">september 2024 – juni 2026</span>
+            <strong>Praktijkgerichte sportpsychologie</strong>
+            <p>KU Leuven</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">mei 2024</span>
+            <strong>EMDR Deel 2</strong>
+            <p>Integrativa</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2023</span>
+          <div>
+            <span class="cv-date">december 2023</span>
+            <strong>Sport Talentenpaspoort</strong>
+            <p>August360</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">oktober 2023</span>
+            <strong>EMDR Deel 1</strong>
+            <p>Integrativa</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">mei – juni 2023</span>
+            <strong>Basisopleiding Eetstoornis</strong>
+            <p>Eetexpert</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">mei 2023 – juni 2023</span>
+            <strong>Hartcoherentiecoach</strong>
+            <p>Louvanie / nerva coach</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2022</span>
+          <div>
+            <span class="cv-date">mei 2022 – juli 2022</span>
+            <strong>Taalcursus Engels</strong>
+            <p>Education First</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2020</span>
+          <div>
+            <span class="cv-date">september 2020 – januari 2021</span>
+            <strong>Creditvak: Sportpsychologie</strong>
+            <p>Universiteit Gent</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2016</span>
+          <div>
+            <span class="cv-date">september 2016 – juni 2022</span>
+            <strong>Master klinische psychologie</strong>
+            <p>Universiteit Gent</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="cv-col rv rv-1">
+      <h3>Ervaring</h3>
+      <p class="cv-order">Recentste bovenaan ↓</p>
+      <ul class="cv-list">
+        <li class="is-current">
+          <span class="cv-year">Nu</span>
+          <div>
+            <span class="cv-date">september 2023 – heden</span>
+            <strong>Studentenpsycholoog UGent</strong>
+            <p>Universiteit Gent (extern)</p>
+          </div>
+        </li>
+        <li class="is-current">
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">december 2022 – heden</span>
+            <strong>Zelfstandig klinisch psycholoog</strong>
+            <p>Tondel – Huis voor psychotherapie (coördinator en bestuurslid)</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2022</span>
+          <div>
+            <span class="cv-date">december 2022 – april 2023</span>
+            <strong>Zelfstandig klinisch psycholoog</strong>
+            <p>M3Care te Merelbeke</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">september 2022 – september 2023</span>
+            <strong>Vrijwilliger praatsessies ANBN</strong>
+            <p>ANBN Gent</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">september 2022 – oktober 2022</span>
+            <strong>Interim lerares Gedragswetenschappen</strong>
+            <p>Vrije Middelbare school Roeselare</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2021</span>
+          <div>
+            <span class="cv-date">september 2021 – maart 2022</span>
+            <strong>Masterstage</strong>
+            <p>Afdeling Studieadvies Universiteit Gent: studentenpsycholoog</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2020</span>
+          <div>
+            <span class="cv-date">september 2020 – augustus 2022</span>
+            <strong>Jobstudent UGent</strong>
+            <p>Oprichter van peersupportsysteem: De Praatsessies + faalangsttrainingen</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
