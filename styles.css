@@ -1108,6 +1108,8 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 .contact-item a:hover { border-bottom-color: var(--green); }
 
+.contact-places p + p { margin-top: 0.7rem; }
+
 .contact-note {
   margin-top: 0.5rem;
   padding: 1rem 1.2rem;

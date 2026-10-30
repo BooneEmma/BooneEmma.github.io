@@ -31,10 +31,11 @@ toc: false
         <p><a href="tel:+32400000000">+32 4 00 00 00 00</a></p>
         <p>Geen antwoord? Ik zit wellicht in sessie of op training. Spreek iets in, ik bel terug.</p>
       </div>
-      <div class="contact-item">
-        <h3>Praktijk</h3>
-        <!-- TODO: echt adres -->
-        <p>Straatnaam 1, 9000 Gent<br>Sessies ook online mogelijk.</p>
+      <div class="contact-item contact-places">
+        <h3>Praktijken</h3>
+        <p><strong>Tondel – Huis voor psychotherapie</strong><br>Stropstraat 15, 9000 Gent</p>
+        <p><strong>Praktijk Drongen</strong><br>9031 Gent</p>
+        <p>Sessies ook online mogelijk.</p>
       </div>
       <div class="contact-item">
         <h3>Online</h3>
