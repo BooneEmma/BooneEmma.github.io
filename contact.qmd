@@ -39,8 +39,15 @@ toc: false
 
     <div class="contact-form rv rv-1">
       <h3>Stuur een bericht</h3>
-      <!-- TODO: formulier koppelen aan bv. Formspree (action="https://formspree.io/f/XXXX" method="POST") -->
-      <form action="#" method="POST">
+      <p class="form-intro">Deel hier nog geen gevoelige details, die bespreken we in een eerste gesprek.</p>
+      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+        <!-- TODO: access key van web3forms.com invullen (mag publiek staan) -->
+        <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
+        <input type="hidden" name="subject" value="Nieuw bericht via de website">
+        <input type="hidden" name="from_name" value="Website Emma Boone">
+        <!-- Without JavaScript, Web3Forms shows its own success page -->
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <input type="checkbox" name="botcheck" class="form-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="form-group">
           <label for="name">Naam</label>
           <input type="text" id="name" name="name" autocomplete="name" required>
@@ -64,11 +71,48 @@ toc: false
           <textarea id="message" name="message" rows="6" required placeholder="Waar wil je aan werken? Een paar zinnen volstaan."></textarea>
         </div>
         <button type="submit" class="btn">Verstuur</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
       </form>
+      <div class="form-thanks" hidden>
+        <p><strong>Bedankt voor je bericht!</strong></p>
+        <p>Ik antwoord binnen twee werkdagen.</p>
+      </div>
     </div>
 
   </div>
 </section>
 
 </main>
+
+<script>
+(function () {
+  var form = document.getElementById('contactForm');
+  var status = form.querySelector('.form-status');
+  var button = form.querySelector('button[type="submit"]');
+  var thanks = document.querySelector('.form-thanks');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    button.disabled = true;
+    status.textContent = 'Bezig met versturen…';
+
+    fetch(form.action, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
+    })
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        if (!data.success) throw new Error(data.message);
+        form.hidden = true;
+        document.querySelector('.form-intro').hidden = true;
+        thanks.hidden = false;
+      })
+      .catch(function () {
+        status.textContent = 'Er ging iets mis. Probeer het later opnieuw of stuur een bericht via LinkedIn.';
+        button.disabled = false;
+      });
+  });
+})();
+</script>
 ```
