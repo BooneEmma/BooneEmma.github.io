@@ -647,6 +647,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 .band blockquote {
   margin: 0 auto;
+  text-wrap: balance;
   max-width: 24em;
   font-family: var(--font-serif);
   font-style: italic;
@@ -967,6 +968,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 @media (max-width: 760px) {
   .cv { grid-template-columns: 1fr; }
   .cv-col:last-child { order: -1; }
+  .meet-text p { text-align: left; }
 }
 
 /* ---------- Approach blocks ---------- */
@@ -1284,7 +1286,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
     gap: 1.4rem;
   }
   .offer-row .lane-num { font-size: 2.6rem; }
-  .offer-row.alt .photo-frame { order: 0; box-shadow: 9px 9px 0 var(--green); }
+  .offer-row.alt .photo-frame { order: 1; box-shadow: 9px 9px 0 var(--green); }
   .offer-row .photo-frame { width: min(100%, 460px); }
 
   .contact-grid { grid-template-columns: 1fr; }

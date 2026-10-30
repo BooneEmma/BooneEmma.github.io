@@ -16,6 +16,7 @@ format:
     theme: none
     css: styles.css
     page-layout: full
+    anchor-sections: false
     include-in-header: _includes/head.html
     include-before-body: _includes/nav.html
     include-after-body: _includes/footer.html
