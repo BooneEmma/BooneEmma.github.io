@@ -1172,7 +1172,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 .site-footer {
   background: var(--ink);
   color: rgba(243, 240, 231, 0.85);
-  padding: clamp(3.5rem, 8vh, 5.5rem) var(--pad) 1.8rem;
+  padding: clamp(2.5rem, 6vh, 4rem) var(--pad) 1.5rem;
 }
 
 .footer-grid {
@@ -1228,12 +1228,12 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 }
 
 .footer-place {
-  margin: 0.8rem 0 1rem;
+  margin: 0.4rem 0 0;
   font-size: 0.9rem;
   color: rgba(243, 240, 231, 0.55);
 }
 
-.footer-social { display: flex; gap: 1.2rem; }
+.footer-social { display: flex; flex-wrap: wrap; gap: 0 1.2rem; }
 
 .footer-social a { margin-bottom: 0; }
 
@@ -1243,8 +1243,8 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
   justify-content: space-between;
   gap: 0.8rem;
   max-width: var(--wrap);
-  margin: 3rem auto 0;
-  padding-top: 1.6rem;
+  margin: 2rem auto 0;
+  padding-top: 1.2rem;
   border-top: 1px solid rgba(243, 240, 231, 0.16);
   font-size: 0.82rem;
   color: rgba(243, 240, 231, 0.5);
@@ -1259,18 +1259,21 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
   color: var(--paper);
 }
 
-/* Crisis numbers: large, bold tap targets */
+/* Crisis numbers: bold with a thick underline, padded for tapping */
 .footer-crisis a,
 .contact-note a[href^="tel:"] {
   display: inline-block;
-  padding: 0.2rem 0.6rem;
-  margin: 0.15rem 0;
-  border: 1.5px solid currentColor;
-  font-weight: 700;
-  text-decoration: none;
+  padding: 0.1rem 0.1rem;
+  font-weight: 800;
+  font-size: 1.1em;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
-.footer-crisis a { color: var(--paper); }
+.footer-crisis a { color: var(--paper); text-decoration-color: var(--green-tint); }
+
+.contact-note a[href^="tel:"] { color: var(--green); }
 
 /* ---------- Scroll reveals ---------- */
 .rv {
@@ -1362,8 +1365,12 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
   .cards, .approach, .info-grid, .steps { grid-template-columns: 1fr; }
 
-  .footer-grid { grid-template-columns: 1fr; }
-  .footer-bottom { flex-direction: column; }
+  .footer-grid { grid-template-columns: 1fr; gap: 1.6rem; }
+  .footer-name { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  .footer-label { margin-bottom: 0.5rem; }
+  .footer-nav { flex-direction: row; flex-wrap: wrap; gap: 0 1.2rem; }
+  .footer-nav .footer-label { flex-basis: 100%; }
+  .footer-bottom { flex-direction: column; gap: 0.5rem; margin-top: 1.6rem; }
 }
 
 /* ---------- Reduced motion ---------- */
