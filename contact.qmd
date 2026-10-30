@@ -20,17 +20,6 @@ toc: false
   <div class="section-inner contact-grid">
 
     <div class="contact-list rv">
-      <div class="contact-item">
-        <h3>E-mail</h3>
-        <!-- TODO: echt e-mailadres -->
-        <p><a href="mailto:hallo@emmaboone.be">hallo@emmaboone.be</a></p>
-      </div>
-      <div class="contact-item">
-        <h3>Telefoon</h3>
-        <!-- TODO: echt nummer -->
-        <p><a href="tel:+32400000000">+32 4 00 00 00 00</a></p>
-        <p>Geen antwoord? Ik zit wellicht in sessie of op training. Spreek iets in, ik bel terug.</p>
-      </div>
       <div class="contact-item contact-places">
         <h3>Praktijken</h3>
         <p><strong>Tondel – Huis voor psychotherapie</strong><br>Stropstraat 15, 9000 Gent</p>
@@ -39,12 +28,7 @@ toc: false
       </div>
       <div class="contact-item">
         <h3>Online</h3>
-        <!-- TODO: echte sociale links -->
-        <p>
-          <a href="#" rel="noopener">LinkedIn</a> ·
-          <a href="#" rel="noopener">Instagram</a> ·
-          <a href="#" rel="noopener">Strava</a>
-        </p>
+        <p><a href="https://www.linkedin.com/in/emmaboone" target="_blank" rel="noopener">LinkedIn</a></p>
       </div>
       <p class="contact-note">
         Ik antwoord binnen twee werkdagen.<br><br>
