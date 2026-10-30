@@ -91,8 +91,8 @@ toc: false
 <section class="band">
   <img class="band-img bw" src="images/web/allin-back.jpg" alt="" loading="lazy">
   <blockquote class="rv">
-    All-in gaan betekent niet altijd alles geven. Soms betekent het op tijd herstellen.
-    <cite>Emma Boone</cite>
+    Fighting the mind does not work. What works best is learning to focus it.
+    <cite>W. Timothy Gallwey, The Inner Game of Golf</cite>
   </blockquote>
 </section>
 
