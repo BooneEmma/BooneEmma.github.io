@@ -25,13 +25,13 @@ include-in-header:
 
     <div class="contact-list rv">
       <div class="contact-item contact-places">
-        <h3>Practices</h3>
+        <h2>Practices</h2>
         <p><strong>Tondel – Huis voor psychotherapie</strong><br>Stropstraat 15, 9000 Gent</p>
         <p><strong>Drongen practice</strong><br>9031 Gent</p>
         <p>Sessions are also possible online.</p>
       </div>
       <div class="contact-item">
-        <h3>Online</h3>
+        <h2>Online</h2>
         <p><a href="https://www.linkedin.com/in/emmaboone" target="_blank" rel="noopener">LinkedIn</a></p>
       </div>
       <p class="contact-note">
@@ -42,7 +42,7 @@ include-in-header:
     </div>
 
     <div class="contact-form rv rv-1">
-      <h3>Send a message</h3>
+      <h2>Send a message</h2>
       <p class="form-intro">Please don't share sensitive details here yet; we will discuss those in a first conversation.</p>
       <form id="contactForm" action="https://api.web3forms.com/submit" method="POST"
             data-msg-sending="Sending…"

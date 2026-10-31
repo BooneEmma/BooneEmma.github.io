@@ -853,7 +853,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 .offer-row .lane-num { align-self: start; }
 
-.offer-row h3 {
+.offer-row h2 {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: clamp(1.7rem, 3.4vw, 2.4rem);
@@ -1038,7 +1038,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
   padding: 1.8rem 1.7rem;
 }
 
-.info-block h3 {
+.info-block h2 {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.5rem;
@@ -1049,7 +1049,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
   gap: 0.7rem;
 }
 
-.info-block h3::before {
+.info-block h2::before {
   content: "";
   width: 0.55rem;
   height: 0.55rem;
@@ -1111,7 +1111,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 .contact-list { display: grid; gap: 1.6rem; }
 
-.contact-item h3 {
+.contact-item h2 {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.3rem;
@@ -1150,7 +1150,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
   padding: clamp(1.6rem, 4vw, 2.4rem);
 }
 
-.contact-form h3 {
+.contact-form h2 {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.7rem;

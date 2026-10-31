@@ -32,7 +32,7 @@ include-after-body: _includes/footer.html
     <div class="offer-row rv" id="individueel">
       <div class="lane-num" aria-hidden="true">01</div>
       <div>
-        <h3>Individuele begeleiding</h3>
+        <h2>Individuele begeleiding</h2>
         <p>Eén-op-één, in de praktijk, online of in beweging. Voor sporters, performers en professionals, en voor iedereen die psychologische ondersteuning zoekt.</p>
         <p class="offer-sub">Presteren</p>
         <ul>
@@ -64,7 +64,7 @@ include-after-body: _includes/footer.html
       </figure>
       <div class="lane-num" aria-hidden="true">02</div>
       <div>
-        <h3>Groepen &amp; teams</h3>
+        <h2>Groepen &amp; teams</h2>
         <p>Een team is meer dan de som van zijn spelers. Voor sportteams, clubs, ensembles en organisaties die samen willen werken aan hoe ze communiceren, omgaan met druk en elkaar beter maken.</p>
         <ul>
           <li>Teamdynamiek en communicatie</li>
@@ -78,7 +78,7 @@ include-after-body: _includes/footer.html
     <div class="offer-row rv" id="workshops">
       <div class="lane-num" aria-hidden="true">03</div>
       <div>
-        <h3>Workshops &amp; lezingen</h3>
+        <h2>Workshops &amp; lezingen</h2>
         <p>Op aanvraag. Interactieve sessies op maat van jouw club, federatie, school, universiteit of organisatie.</p>
         <ul>
           <li>Omgaan met druk en faalangst</li>

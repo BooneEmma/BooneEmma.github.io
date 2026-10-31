@@ -24,7 +24,7 @@ include-in-header:
   <div class="section-inner">
     <div class="info-grid">
       <div class="info-block rv">
-        <h3>Location</h3>
+        <h2>Location</h2>
         <p>
           <strong>Tondel – Huis voor psychotherapie, Ghent</strong><br>
           Stropstraat 15<br>
@@ -38,19 +38,19 @@ include-in-header:
         <p>Easy to reach by bike and public transport. Sessions can also take place online.</p>
       </div>
       <div class="info-block rv rv-1">
-        <h3>Sessions</h3>
+        <h2>Sessions</h2>
         <p><strong>Duration:</strong> 50 minutes</p>
         <p><strong>Format:</strong> at the practice, online, or on the move (walking, on the field, on the bike).</p>
         <p><strong>When:</strong> during the day, with a few evening slots per week.</p>
       </div>
       <div class="info-block rv rv-2">
-        <h3>Rates</h3>
+        <h2>Rates</h2>
         <p><strong>Individual session:</strong> € 80</p>
         <p><strong>Teams, talks and workshops:</strong> on request.</p>
         <p>I am not a contracted (geconventioneerd) psychologist, but your health insurance fund (ziekenfonds) reimburses part of the cost. You can find more information <a href="https://www.vind-een-psycholoog.be/info/terugbetaling-psychotherapie.html" target="_blank" rel="noopener">via this link</a> (in Dutch).</p>
       </div>
       <div class="info-block rv rv-3">
-        <h3>Cancelling</h3>
+        <h2>Cancelling</h2>
         <p>Free of charge up to 24 hours in advance.</p>
         <p>Later cancellations or missed appointments are charged.</p>
       </div>

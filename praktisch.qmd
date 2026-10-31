@@ -27,7 +27,7 @@ include-after-body: _includes/footer.html
   <div class="section-inner">
     <div class="info-grid">
       <div class="info-block rv">
-        <h3>Locatie</h3>
+        <h2>Locatie</h2>
         <p>
           <strong>Praktijk Tondel- Huis voor psychotherapie in Gent</strong><br>
           Stropstraat 15<br>
@@ -41,19 +41,19 @@ include-after-body: _includes/footer.html
         <p>Vlot bereikbaar met de fiets en het openbaar vervoer. Sessies kunnen ook online doorgaan.</p>
       </div>
       <div class="info-block rv rv-1">
-        <h3>Sessies</h3>
+        <h2>Sessies</h2>
         <p><strong>Duur:</strong> 50 minuten</p>
         <p><strong>Vorm:</strong> in de praktijk, online, of in beweging (wandelend, op het veld, op de fiets).</p>
         <p><strong>Wanneer:</strong> overdag, met enkele avondmomenten per week.</p>
       </div>
       <div class="info-block rv rv-2">
-        <h3>Tarieven</h3>
+        <h2>Tarieven</h2>
         <p><strong>Individuele sessie:</strong> € 80</p>
         <p><strong>Teams, lezingen en workshops:</strong> op aanvraag.</p>
         <p>Ik ben niet geconventioneerd, maar het ziekenfonds betaalt je een deel terug. Via <a href="https://www.vind-een-psycholoog.be/info/terugbetaling-psychotherapie.html" target="_blank" rel="noopener">deze link</a> kan je daarover meer info terugvinden.</p>
       </div>
       <div class="info-block rv rv-3">
-        <h3>Annuleren</h3>
+        <h2>Annuleren</h2>
         <p>Kosteloos tot 24 uur op voorhand.</p>
         <p>Later annuleren of niet komen opdagen wordt aangerekend.</p>
       </div>

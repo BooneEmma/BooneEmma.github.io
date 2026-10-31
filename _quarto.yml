@@ -26,6 +26,9 @@ format:
       - styles.css
     page-layout: full
     anchor-sections: false
+    # Pages build their own <h1>; the empty partial drops Quarto's hidden title block
+    template-partials:
+      - _includes/title-block.html
     include-in-header: _includes/head.html
     include-after-body: _includes/scripts.html
 

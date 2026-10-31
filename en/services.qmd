@@ -29,7 +29,7 @@ include-in-header:
     <div class="offer-row rv" id="individual">
       <div class="lane-num" aria-hidden="true">01</div>
       <div>
-        <h3>Individual support</h3>
+        <h2>Individual support</h2>
         <p>One-on-one, at the practice, online or on the move. For athletes, performers and professionals, and for anyone looking for psychological support.</p>
         <p class="offer-sub">Performance</p>
         <ul>
@@ -61,7 +61,7 @@ include-in-header:
       </figure>
       <div class="lane-num" aria-hidden="true">02</div>
       <div>
-        <h3>Groups &amp; teams</h3>
+        <h2>Groups &amp; teams</h2>
         <p>A team is more than the sum of its players. For sports teams, clubs, ensembles and organisations that want to work together on how they communicate, handle pressure and make each other better.</p>
         <ul>
           <li>Team dynamics and communication</li>
@@ -75,7 +75,7 @@ include-in-header:
     <div class="offer-row rv" id="workshops">
       <div class="lane-num" aria-hidden="true">03</div>
       <div>
-        <h3>Workshops &amp; talks</h3>
+        <h2>Workshops &amp; talks</h2>
         <p>On request. Interactive sessions tailored to your club, federation, school, university or organisation.</p>
         <ul>
           <li>Handling pressure and fear of failure</li>
