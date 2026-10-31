@@ -7,9 +7,18 @@
 
 ## Domain
 - [ ] Register a custom domain and point GitHub Pages to it
-- [ ] Replace `https://booneemma.github.io` everywhere: `site-url` in `_quarto.yml`, `og:image` in
-      `_includes/head.html`, and the hreflang links in the front matter of all NL and `en/` pages
+- [ ] Replace `https://booneemma.github.io` everywhere: `site-url` in `_quarto.yml` and
+      the hreflang links in the front matter of all NL and `en/` pages
 
 ## Content
 - [ ] Add visum number / erkenningsnummer in both footers (`_includes/footer.html`, `_includes/footer-en.html`)
 - [ ] Confirm the realistic waiting time (`praktisch.qmd`, `en/practical.qmd`)
+
+## Waiting for input
+- [ ] Privacy statement (contact form data, Web3Forms as processor), linked from the form and both footers
+- [ ] Own `description:` per page (front matter); now all pages share the default in `_quarto.yml` / `en/_metadata.yml`
+- [ ] Confirm that https://www.linkedin.com/in/emmaboone is Emma's profile
+
+## English sync (Dutch changes not yet copied to `en/`)
+- [ ] Home page title: `pagetitle` in `index.qmd` → add the English one to `en/index.qmd`
+- [ ] 404 page (`404.qmd`) is Dutch with one English line; decide whether that is enough
