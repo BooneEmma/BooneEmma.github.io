@@ -1,0 +1,35 @@
+---
+title: "Pagina niet gevonden"
+toc: false
+include-in-header:
+  - _includes/head-nl.html
+include-before-body: _includes/nav.html
+include-after-body: _includes/footer.html
+---
+
+```{=html}
+<main>
+
+<!-- ===== PAGE HEAD ===== -->
+<section class="page-head">
+  <div class="page-head-inner">
+    <p class="kicker">Fout 404</p>
+    <h1 class="d-title">Pagina niet gevonden</h1>
+    <p class="lede">
+      Deze pagina bestaat niet (meer). Misschien is de link verouderd of zit er een typfout in het adres.
+    </p>
+    <p class="lede" lang="en">
+      This page could not be found. <a href="en/index.html">Go to the English homepage</a>.
+    </p>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="start-band">
+  <p class="kicker rv">Verdwaald?</p>
+  <h2 class="start-title rv rv-1">Terug naar <em>de start.</em></h2>
+  <a class="btn rv rv-2" href="index.html">Naar de homepagina</a>
+</section>
+
+</main>
+```
