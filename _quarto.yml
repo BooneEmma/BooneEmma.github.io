@@ -21,7 +21,9 @@ lang: nl
 format:
   html:
     theme: none
-    css: styles.css
+    css:
+      - fonts.css
+      - styles.css
     page-layout: full
     anchor-sections: false
     include-in-header: _includes/head.html
@@ -29,4 +31,5 @@ format:
 
 resources:
   - images/web
+  - fonts
   - icons
