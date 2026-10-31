@@ -49,14 +49,14 @@ include-in-header:
         </ul>
       </div>
       <figure class="photo-frame" style="margin:0">
-        <img class="bw" src="../images/web/spikes.jpg" alt="An athlete's spikes before the start" loading="lazy">
+        <img class="bw" src="../images/web/spikes.jpg" width="1067" height="1600" alt="An athlete's spikes before the start" loading="lazy">
         <figcaption class="photo-caption"><span>You don't get faster with your legs alone.</span></figcaption>
       </figure>
     </div>
 
     <div class="offer-row alt rv" id="groups">
       <figure class="photo-frame" style="margin:0">
-        <img class="bw" src="../images/web/team-huddle.jpg" alt="Basketball team in a huddle during a time-out" loading="lazy">
+        <img class="bw" src="../images/web/team-huddle.jpg" width="1600" height="1067" alt="Basketball team in a huddle during a time-out" loading="lazy">
         <figcaption class="photo-caption"><span>Sometimes the time-out is the most important moment of the match.</span></figcaption>
       </figure>
       <div class="lane-num" aria-hidden="true">02</div>
@@ -85,7 +85,7 @@ include-in-header:
         </ul>
       </div>
       <figure class="photo-frame" style="margin:0">
-        <img class="bw" src="../images/web/podium.jpg" alt="Podium ceremony with flowers at an indoor meeting" loading="lazy">
+        <img class="bw" src="../images/web/podium.jpg" width="1600" height="1067" alt="Podium ceremony with flowers at an indoor meeting" loading="lazy">
         <figcaption class="photo-caption"><span>Knowledge is best shared out loud.</span></figcaption>
       </figure>
     </div>
@@ -122,7 +122,7 @@ include-in-header:
 
 <!-- ===== QUOTE BAND ===== -->
 <section class="band">
-  <img class="band-img" src="../images/web/river-swim.jpg" alt="" loading="lazy">
+  <img class="band-img" src="../images/web/river-swim.webp" width="1600" height="1067" alt="" loading="lazy">
   <blockquote class="rv">
     Sometimes you first have to swim against the current.
   </blockquote>

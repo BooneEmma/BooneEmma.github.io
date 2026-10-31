@@ -27,7 +27,7 @@ include-in-header:
 <section class="section">
   <div class="section-inner meet">
     <figure class="photo-frame rv" style="margin:0">
-      <img src="../images/web/portret.jpg" alt="Portrait of Emma Boone">
+      <img src="../images/web/portret.jpg" width="1199" height="1200" alt="Portrait of Emma Boone">
       <figcaption class="photo-caption">
         <span>Emma Boone, Ghent</span>
       </figcaption>
@@ -222,7 +222,7 @@ include-in-header:
 
 <!-- ===== MOTTO BAND ===== -->
 <section class="band">
-  <img class="band-img bw" src="../images/web/scoreboard.jpg" alt="" loading="lazy">
+  <img class="band-img bw" src="../images/web/scoreboard.jpg" width="1600" height="1067" alt="" loading="lazy">
   <blockquote class="rv">
     “Not listening to your watch? That just doesn't work.”
     <cite>Emma, somewhere past kilometre 30</cite>

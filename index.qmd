@@ -105,7 +105,7 @@ include-after-body: _includes/footer.html
 
 <!-- ===== QUOTE BAND ===== -->
 <section class="band">
-  <img class="band-img" src="images/web/swim-start.jpg" alt="" loading="lazy">
+  <img class="band-img" src="images/web/swim-start.webp" width="2000" height="1333" alt="" loading="lazy">
   <blockquote class="rv">
     Druk verdwijnt niet. Je leert er wel anders mee omgaan.
     <!-- <cite>Emma Boone</cite> -->
@@ -116,7 +116,7 @@ include-after-body: _includes/footer.html
 <section class="section" style="background: var(--paper-deep); border-block: 1px solid var(--line);">
   <div class="section-inner meet">
     <figure class="photo-frame rv" style="margin:0">
-      <img src="images/web/portret.jpg" alt="Portret van Emma Boone" loading="lazy">
+      <img src="images/web/portret.jpg" width="1199" height="1200" alt="Portret van Emma Boone" loading="lazy">
       <figcaption class="photo-caption">
         <span>Emma Boone, Gent</span>
         <span class="tag">UGENT</span>

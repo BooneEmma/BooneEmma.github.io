@@ -96,7 +96,7 @@ include-after-body: _includes/footer.html
 
 <!-- ===== QUOTE BAND ===== -->
 <section class="band">
-  <img class="band-img bw" src="images/web/allin-back.jpg" alt="" loading="lazy">
+  <img class="band-img bw" src="images/web/allin-back.jpg" width="1067" height="1600" alt="" loading="lazy">
   <blockquote class="rv">
     Fighting the mind does not work. What works best is learning to focus it.
     <cite>W. Timothy Gallwey, The Inner Game of Golf</cite>

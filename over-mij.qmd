@@ -30,7 +30,7 @@ include-after-body: _includes/footer.html
 <section class="section">
   <div class="section-inner meet">
     <figure class="photo-frame rv" style="margin:0">
-      <img src="images/web/portret.jpg" alt="Portret van Emma Boone">
+      <img src="images/web/portret.jpg" width="1199" height="1200" alt="Portret van Emma Boone">
       <figcaption class="photo-caption">
         <span>Emma Boone, Gent</span>
         <!-- <span class="tag">ALL IN</span> -->
@@ -226,7 +226,7 @@ include-after-body: _includes/footer.html
 
 <!-- ===== MOTTO BAND ===== -->
 <section class="band">
-  <img class="band-img bw" src="images/web/scoreboard.jpg" alt="" loading="lazy">
+  <img class="band-img bw" src="images/web/scoreboard.jpg" width="1600" height="1067" alt="" loading="lazy">
   <blockquote class="rv">
     “Niet luisteren naar je horloge, da werkt gewoon nie.”
     <cite>Emma, ergens voorbij kilometer 30</cite>
