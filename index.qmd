@@ -1,5 +1,6 @@
 ---
 title: "Home"
+pagetitle: "Sport- en performancepsycholoog in Gent"
 toc: false
 include-in-header:
   - _includes/head-nl.html

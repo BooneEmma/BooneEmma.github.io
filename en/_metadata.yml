@@ -1,4 +1,5 @@
 lang: en
+description: "Emma Boone — sport and performance psychologist in Ghent. Support for athletes, students and PhD candidates who want to perform under pressure without going under."
 format:
   html:
     include-in-header: ../_includes/head-en.html
