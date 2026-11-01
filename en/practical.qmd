@@ -85,8 +85,7 @@ include-in-header:
       </details>
       <details>
         <summary>How soon can I get an appointment?</summary>
-        <!-- TODO: realistische wachttijd bevestigen -->
-        <p>I aim to schedule a first conversation within two weeks.</p>
+        <p>I usually reply to your message within two working days, except during holidays. We then look together for a time for a first conversation as soon as possible. I cannot promise a fixed timeframe, as some periods are busier than others. Is it urgent and can I not help you quickly enough? Then, if you like, I can refer you to a colleague at Tondel who can see you sooner.</p>
       </details>
     </div>
   </div>
