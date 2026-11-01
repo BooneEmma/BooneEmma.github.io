@@ -88,8 +88,7 @@ include-after-body: _includes/footer.html
       </details>
       <details>
         <summary>Hoe snel kan ik terecht?</summary>
-        <!-- TODO: realistische wachttijd bevestigen -->
-        <p>Ik streef ernaar om een eerste gesprek binnen twee weken te plannen.</p>
+        <p>Op je bericht antwoord ik meestal binnen twee werkdagen, behalve tijdens vakanties. Daarna zoeken we samen zo snel mogelijk een moment voor een eerste gesprek. Een vaste termijn kan ik niet beloven, want soms is het drukker. Is het dringend en kan ik je niet snel genoeg verder helpen? Dan kan ik je, als je dat wil, doorverwijzen naar een collega bij Tondel die sneller plaats heeft.</p>
       </details>
     </div>
   </div>
