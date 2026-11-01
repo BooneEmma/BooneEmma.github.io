@@ -1,5 +1,7 @@
 ---
 title: "Home"
+description: "Sport and performance psychologist in Ghent and Drongen. I support athletes and anyone who wants to perform under pressure without going under."
+pagetitle: "Sport and performance psychologist in Ghent"
 toc: false
 include-in-header:
   - text: |

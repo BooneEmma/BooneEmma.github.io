@@ -1,5 +1,6 @@
 ---
 title: "Practical"
+description: "Location, sessions, rates and cancelling, plus answers to common questions about reimbursement and waiting times. Practice in Ghent and Drongen, also online."
 toc: false
 include-in-header:
   - text: |

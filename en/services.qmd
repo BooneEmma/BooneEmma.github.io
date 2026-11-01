@@ -1,5 +1,6 @@
 ---
 title: "Services"
+description: "Individual support, groups and teams, workshops and talks. How a programme works: from an introduction to a plan to getting started."
 toc: false
 include-in-header:
   - text: |

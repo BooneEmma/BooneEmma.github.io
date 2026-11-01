@@ -1,5 +1,6 @@
 ---
 title: "About me"
+description: "Clinical psychologist and sport and performance psychologist. My education, experience and approach, and why sport and psychology come together for me."
 toc: false
 include-in-header:
   - text: |

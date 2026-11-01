@@ -1174,7 +1174,6 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 }
 
 .form-group input,
-.form-group select,
 .form-group textarea {
   width: 100%;
   padding: 0.85rem 1rem;
@@ -1188,7 +1187,6 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 }
 
 .form-group input:focus,
-.form-group select:focus,
 .form-group textarea:focus {
   outline: none;
   border-color: var(--green);
