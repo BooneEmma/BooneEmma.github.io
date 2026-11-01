@@ -4,8 +4,8 @@ description: "Book an appointment or ask a question via the contact form. Practi
 toc: false
 include-in-header:
   - text: |
-      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/contact.html">
-      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/contact.html">
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/contact.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/contact.html">
 ---
 
 ```{=html}

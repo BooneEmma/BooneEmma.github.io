@@ -11,7 +11,7 @@ publish:
 website:
   # Kept language-neutral: Quarto appends it to every page title (NL and EN)
   title: "Emma Boone"
-  site-url: "https://booneemma.github.io"
+  site-url: "https://emmaboone.be"
   # EB monogram (Instrument Serif italic, as in the header); fallbacks in head.html
   favicon: icons/favicon.svg
   # Quarto writes og:title / og:description from each page's title and description
@@ -44,3 +44,5 @@ resources:
   - fonts
   - icons
   - favicon.ico
+  # Custom domain for GitHub Pages (emmaboone.be)
+  - CNAME

@@ -4,8 +4,8 @@ description: "Location, sessions, rates and cancelling, plus answers to common q
 toc: false
 include-in-header:
   - text: |
-      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/praktisch.html">
-      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/practical.html">
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/praktisch.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/practical.html">
 ---
 
 ```{=html}

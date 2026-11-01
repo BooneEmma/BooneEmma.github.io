@@ -6,8 +6,8 @@ toc: false
 include-in-header:
   - _includes/head-nl.html
   - text: |
-      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/index.html">
-      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/index.html">
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/index.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/index.html">
 include-before-body: _includes/nav.html
 include-after-body: _includes/footer.html
 ---

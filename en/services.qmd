@@ -4,8 +4,8 @@ description: "Individual support, groups and teams, workshops and talks. How a p
 toc: false
 include-in-header:
   - text: |
-      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/aanbod.html">
-      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/services.html">
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/aanbod.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/services.html">
 ---
 
 ```{=html}

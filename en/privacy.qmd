@@ -4,8 +4,8 @@ description: "How I handle the details you send through the contact form: what I
 toc: false
 include-in-header:
   - text: |
-      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/privacy.html">
-      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/privacy.html">
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/privacy.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/privacy.html">
 ---
 
 ```{=html}

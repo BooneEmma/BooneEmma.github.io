@@ -4,8 +4,8 @@ description: "Clinical psychologist and sport and performance psychologist. My e
 toc: false
 include-in-header:
   - text: |
-      <link rel="alternate" hreflang="nl" href="https://booneemma.github.io/over-mij.html">
-      <link rel="alternate" hreflang="en" href="https://booneemma.github.io/en/about.html">
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/over-mij.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/about.html">
 ---
 
 ```{=html}
