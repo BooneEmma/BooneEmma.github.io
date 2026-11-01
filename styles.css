@@ -1160,6 +1160,10 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-5px) rotate
 
 .form-group { margin-bottom: 1.3rem; }
 
+/* First and last name side by side, stacked on phones */
+.form-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; }
+@media (max-width: 480px) { .form-pair { grid-template-columns: 1fr; } }
+
 .form-group label {
   display: block;
   font-size: 0.78rem;
