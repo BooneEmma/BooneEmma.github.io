@@ -1,5 +1,6 @@
 ---
 title: "Praktisch"
+description: "Locatie, sessies, tarieven en annuleren, plus antwoorden op veelgestelde vragen over terugbetaling en wachttijd. Praktijk in Gent en Drongen, ook online."
 toc: false
 include-in-header:
   - _includes/head-nl.html

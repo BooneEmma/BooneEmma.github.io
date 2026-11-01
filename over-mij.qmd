@@ -1,5 +1,6 @@
 ---
 title: "Over mij"
+description: "Klinisch psycholoog en sport- en performancepsycholoog. Mijn opleiding, ervaring en werkwijze, en waarom sport en psychologie bij mij samenkomen."
 toc: false
 include-in-header:
   - _includes/head-nl.html

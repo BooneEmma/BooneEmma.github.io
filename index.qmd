@@ -1,5 +1,6 @@
 ---
 title: "Home"
+description: "Sport- en performancepsycholoog in Gent en Drongen. Ik begeleid sporters en iedereen die wil presteren onder druk, zonder eraan onderdoor te gaan."
 pagetitle: "Sport- en performancepsycholoog in Gent"
 toc: false
 include-in-header:

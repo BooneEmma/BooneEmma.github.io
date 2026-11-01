@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Maak een afspraak of stel een vraag via het contactformulier. Praktijk in Gent (Tondel, Stropstraat 15) en Drongen, ook online."
 toc: false
 include-in-header:
   - _includes/head-nl.html

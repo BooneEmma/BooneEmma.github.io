@@ -1,5 +1,6 @@
 ---
 title: "Aanbod"
+description: "Individuele begeleiding, groepen en teams, workshops en lezingen. Zo verloopt een traject: van kennismaking over een plan tot aan de slag."
 toc: false
 include-in-header:
   - _includes/head-nl.html

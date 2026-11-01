@@ -20,7 +20,7 @@ website:
 
 lang: nl
 # Default page description (meta + og:description); pages can override it
-description: "Emma Boone — sport- en performancepsycholoog in Gent. Begeleiding voor sporters, studenten en doctorandi die willen presteren onder druk, zonder eraan onderdoor te gaan."
+description: "Sport- en performancepsycholoog in Gent en Drongen. Ik begeleid sporters en iedereen die wil presteren onder druk, zonder eraan onderdoor te gaan."
 
 # Nav, footer and language meta are set per language (Quarto concatenates
 # includes, so they cannot live here): Dutch pages in their front matter,
