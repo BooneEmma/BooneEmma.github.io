@@ -47,8 +47,8 @@ include-after-body: _includes/footer.html
 
     <div class="contact-form rv rv-1">
       <h2>Stuur een bericht</h2>
-      <p class="form-intro">Deel hier nog geen gevoelige details, die bespreken we in een eerste gesprek.</p>
-      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST"
+      <p class="form-intro">Deel hier nog geen gevoelige details, die bespreken we in een eerste gesprek. Hoe ik met je gegevens omga, lees je in de <a href="privacy.html">privacyverklaring</a>.</p>
+      <form action="https://api.web3forms.com/submit" method="POST"
             data-msg-sending="Bezig met versturen…"
             data-msg-error="Er ging iets mis. Probeer het later opnieuw of stuur een bericht via LinkedIn.">
         <!-- TODO: access key van web3forms.com invullen (mag publiek staan) -->

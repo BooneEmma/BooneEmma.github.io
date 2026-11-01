@@ -64,13 +64,13 @@
     revealed.forEach(function (el) { el.classList.add('in'); });
   }
 
-  // Contact form (Web3Forms): submit in place, show thanks or error
-  var form = document.getElementById('contactForm');
-  if (form) {
+  // Web3Forms forms (contact, privacy request): submit in place, show thanks or error
+  document.querySelectorAll('.contact-form form').forEach(function (form) {
+    var box = form.closest('.contact-form');
     var status = form.querySelector('.form-status');
     var button = form.querySelector('button[type="submit"]');
-    var intro = document.querySelector('.form-intro');
-    var thanks = document.querySelector('.form-thanks');
+    var intro = box.querySelector('.form-intro');
+    var thanks = box.querySelector('.form-thanks');
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -94,6 +94,6 @@
           button.disabled = false;
         });
     });
-  }
+  });
 })();
 </script>
