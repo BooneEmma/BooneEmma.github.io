@@ -44,8 +44,8 @@ include-in-header:
 
     <div class="contact-form rv rv-1">
       <h2>Send a message</h2>
-      <p class="form-intro">Please don't share sensitive details here yet; we will discuss those in a first conversation.</p>
-      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST"
+      <p class="form-intro">Please don't share sensitive details here yet; we will discuss those in a first conversation. You can read how I handle your details in the <a href="privacy.html">privacy statement</a>.</p>
+      <form action="https://api.web3forms.com/submit" method="POST"
             data-msg-sending="Sending…"
             data-msg-error="Something went wrong. Please try again later or send a message via LinkedIn.">
         <!-- TODO: access key van web3forms.com invullen (mag publiek staan) -->
