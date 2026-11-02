@@ -133,7 +133,7 @@ include-after-body: _includes/footer.html
       </p>
       <ul class="meet-facts">
         <li>ACT &amp; EMDR</li>
-        <li>Competitie loper</li>
+        <li>Competitieloper</li>
       </ul>
       <a class="arrow-link" href="over-mij.html">Lees mijn parcours</a>
     </div>
