@@ -1,23 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://emmaboone.github.io/praktisch.html</loc>
-    <lastmod>2025-12-14T20:36:20.298Z</lastmod>
+    <loc>https://emmaboone.be/privacy.html</loc>
+    <lastmod>2026-11-02T16:07:40.671Z</lastmod>
   </url>
   <url>
-    <loc>https://emmaboone.github.io/index.html</loc>
-    <lastmod>2025-12-14T21:05:05.772Z</lastmod>
+    <loc>https://emmaboone.be/over-mij.html</loc>
+    <lastmod>2026-11-02T16:07:40.671Z</lastmod>
   </url>
   <url>
-    <loc>https://emmaboone.github.io/aanbod.html</loc>
-    <lastmod>2025-12-14T20:36:20.295Z</lastmod>
+    <loc>https://emmaboone.be/en/services.html</loc>
+    <lastmod>2026-11-02T16:07:40.665Z</lastmod>
   </url>
   <url>
-    <loc>https://emmaboone.github.io/contact.html</loc>
-    <lastmod>2025-12-14T20:36:20.296Z</lastmod>
+    <loc>https://emmaboone.be/en/practical.html</loc>
+    <lastmod>2026-11-02T16:07:40.665Z</lastmod>
   </url>
   <url>
-    <loc>https://emmaboone.github.io/over-mij.html</loc>
-    <lastmod>2025-12-14T20:36:20.297Z</lastmod>
+    <loc>https://emmaboone.be/en/contact.html</loc>
+    <lastmod>2026-11-02T16:07:40.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmaboone.be/contact.html</loc>
+    <lastmod>2026-11-02T16:07:40.664Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmaboone.be/aanbod.html</loc>
+    <lastmod>2026-11-02T16:07:40.664Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmaboone.be/en/about.html</loc>
+    <lastmod>2026-11-02T16:07:40.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmaboone.be/en/index.html</loc>
+    <lastmod>2026-11-02T16:07:40.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmaboone.be/en/privacy.html</loc>
+    <lastmod>2026-11-02T16:07:40.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmaboone.be/index.html</loc>
+    <lastmod>2026-11-02T16:07:40.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmaboone.be/praktisch.html</loc>
+    <lastmod>2026-11-02T16:07:40.671Z</lastmod>
   </url>
 </urlset>
