@@ -1,25 +1,48 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "en/*.qmd"
 
 publish:
   method: gh-pages
   branch: gh-pages
 
 website:
-  title: "Emma Boone — Sport- & Performancepsycholoog"
-  site-url: "https://emmaboone.github.io"
+  # Kept language-neutral: Quarto appends it to every page title (NL and EN)
+  title: "Emma Boone"
+  site-url: "https://emmaboone.be"
+  # EB monogram (Instrument Serif italic, as in the header); fallbacks in head.html
+  favicon: icons/favicon.svg
+  # Quarto writes og:title / og:description from each page's title and description
+  open-graph: true
+  image: /images/web/og-image.jpg
 
 lang: nl
+# Default page description (meta + og:description); pages can override it
+description: "Sport- en performancepsycholoog in Gent en Drongen. Ik begeleid sporters en iedereen die wil presteren onder druk, zonder eraan onderdoor te gaan."
 
+# Nav, footer and language meta are set per language (Quarto concatenates
+# includes, so they cannot live here): Dutch pages in their front matter,
+# English pages in en/_metadata.yml.
 format:
   html:
     theme: none
-    css: styles.css
+    css:
+      - fonts.css
+      - styles.css
     page-layout: full
+    anchor-sections: false
+    # Pages build their own <h1>; the empty partial drops Quarto's hidden title block
+    template-partials:
+      - _includes/title-block.html
     include-in-header: _includes/head.html
-    include-before-body: _includes/nav.html
-    include-after-body: _includes/footer.html
+    include-after-body: _includes/scripts.html
 
 resources:
   - images/web
+  - fonts
   - icons
+  - favicon.ico
+  # Custom domain for GitHub Pages (emmaboone.be)
+  - CNAME

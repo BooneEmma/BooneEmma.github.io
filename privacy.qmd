@@ -1,0 +1,91 @@
+---
+title: "Privacy"
+description: "Hoe ik omga met de gegevens die je via het contactformulier stuurt: wat ik bewaar, hoe lang, en hoe je ze laat verwijderen."
+toc: false
+include-in-header:
+  - _includes/head-nl.html
+  - text: |
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/privacy.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/privacy.html">
+include-before-body: _includes/nav.html
+include-after-body: _includes/footer.html
+---
+
+```{=html}
+<main>
+
+<!-- ===== PAGE HEAD ===== -->
+<section class="page-head">
+  <div class="page-head-inner">
+    <p class="kicker">Privacy</p>
+    <h1 class="d-title">Privacy</h1>
+    <p class="lede">Hoe ik omga met de gegevens die je via deze website stuurt.</p>
+  </div>
+</section>
+
+<!-- ===== PRIVACY ===== -->
+<section class="section">
+  <div class="section-inner contact-grid">
+
+    <div class="contact-list rv">
+      <div class="contact-item">
+        <h2>Wie</h2>
+        <p>Emma Boone, klinisch psycholoog, is verantwoordelijk voor de gegevens op deze website. Je bereikt me via het formulier op deze pagina, of per post: Tondel – Huis voor psychotherapie, Stropstraat 15, 9000 Gent.</p>
+      </div>
+      <div class="contact-item">
+        <h2>Welke gegevens</h2>
+        <p>Alleen wat je zelf invult in het contactformulier: je voornaam, achternaam, e-mailadres en bericht. Ik gebruik die gegevens enkel om je vraag te beantwoorden of een eerste gesprek te plannen. Ik deel ze niet met anderen en gebruik ze niet voor reclame.</p>
+      </div>
+      <div class="contact-item">
+        <h2>Hoe je bericht reist</h2>
+        <p>Het formulier loopt via Web3Forms, een dienst die je bericht doorstuurt naar mijn mailbox bij Outlook (Microsoft). De website zelf staat op GitHub Pages. Zoals elke webhost houdt GitHub technische logbestanden bij, zoals IP-adressen.</p>
+      </div>
+      <div class="contact-item">
+        <h2>Hoe lang</h2>
+        <p>Berichten via het formulier bewaar ik maximaal 6 maanden. Daarna verwijder ik ze. Start je een begeleiding, dan valt wat je in de sessies deelt onder het beroepsgeheim. Dat staat los van deze website.</p>
+      </div>
+      <div class="contact-item">
+        <h2>Geen cookies</h2>
+        <p>Deze website gebruikt geen cookies, geen statistieken en geen trackers. Lettertypes en afbeeldingen komen van de website zelf.</p>
+      </div>
+      <div class="contact-item">
+        <h2>Jouw rechten</h2>
+        <p>Je kan altijd vragen om je gegevens te laten verwijderen. Gebruik daarvoor het formulier op deze pagina. Heb je een andere vraag over je gegevens, dan kan je die er ook in kwijt. Meer over je rechten lees je bij de <a href="https://www.gegevensbeschermingsautoriteit.be/burger" target="_blank" rel="noopener">Gegevensbeschermingsautoriteit</a>.</p>
+      </div>
+    </div>
+
+    <div class="contact-form rv rv-1">
+      <h2>Gegevens verwijderen</h2>
+      <p class="form-intro">Vul het e-mailadres in waarmee je me schreef. Ik verwijder alle berichten van dat adres en bevestig per e-mail, uiterlijk binnen een maand.</p>
+      <form action="https://api.web3forms.com/submit" method="POST"
+            data-msg-sending="Bezig met versturen…"
+            data-msg-error="Er ging iets mis. Probeer het later opnieuw of stuur een bericht via LinkedIn.">
+        <!-- Web3Forms access key (public by design) -->
+        <input type="hidden" name="access_key" value="8699112e-570e-49a7-9118-ca3ea24be3fc">
+        <input type="hidden" name="subject" value="Verwijderverzoek via de website">
+        <input type="hidden" name="from_name" value="Website Emma Boone">
+        <!-- Without JavaScript, Web3Forms shows its own success page -->
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <input type="checkbox" name="botcheck" class="form-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-group">
+          <label for="privacy-email">E-mail</label>
+          <input type="email" id="privacy-email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-group">
+          <label for="privacy-message">Opmerking (optioneel)</label>
+          <textarea id="privacy-message" name="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn">Verstuur verzoek</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <div class="form-thanks" hidden>
+        <p><strong>Je verzoek is goed ontvangen.</strong></p>
+        <p>Ik bevestig per e-mail, uiterlijk binnen een maand.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+```

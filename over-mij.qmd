@@ -1,6 +1,14 @@
 ---
 title: "Over mij"
+description: "Klinisch psycholoog en sport- en performancepsycholoog. Mijn opleiding, ervaring en werkwijze, en waarom sport en psychologie bij mij samenkomen."
 toc: false
+include-in-header:
+  - _includes/head-nl.html
+  - text: |
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/over-mij.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/about.html">
+include-before-body: _includes/nav.html
+include-after-body: _includes/footer.html
 ---
 
 ```{=html}
@@ -23,34 +31,35 @@ toc: false
 <section class="section">
   <div class="section-inner meet">
     <figure class="photo-frame rv" style="margin:0">
-      <img src="images/web/portret.jpg" alt="Portret van Emma Boone">
+      <img src="images/web/portret.jpg" width="1199" height="1200" alt="Portret van Emma Boone">
       <figcaption class="photo-caption">
         <span>Emma Boone, Gent</span>
-        <span class="tag">ALL IN</span>
+        <!-- <span class="tag">ALL IN</span> -->
       </figcaption>
     </figure>
-    <div class="rv rv-1">
-      <!-- TODO: bio nalezen en aanvullen met juiste details -->
+    <div class="meet-text rv rv-1">
       <p>
-        Ik ben Emma Boone, klinisch psycholoog met een specialisatie in sport- en
-        prestatiepsychologie. In mijn praktijk in Gent begeleid ik sporters van
-        jeugdtalent tot elite, en iedereen die in een veeleisende omgeving wil
-        blijven staan.
+        Ik ben Emma Boone, klinisch psycholoog gespecialiseerd in sport- en
+        prestatiepsychologie. <b>Sport en psychologie</b> zijn al van jongs af aan
+        mijn twee passies.
       </p>
       <p>
-        Daarnaast werk ik als studentenpsycholoog aan de Universiteit Gent, waar ik
-        studenten en doctorandi begeleid bij faalangst, uitstelgedrag, perfectionisme
-        en prestatiedruk. Een thesis, een doctoraatsverdediging of een examenreeks
-        is óók topsport, alleen zonder publiek dat applaudisseert.
+        Als klinisch psycholoog boeiden de drive en veerkracht van mensen me telkens
+        opnieuw. Als studentenpsycholoog ontdekte ik thema's als concentratie,
+        motivatie en stresshantering. Samen met mijn passie voor sport leidde dat me
+        naar de sportpsychologie en een extra postgraduaat.
       </p>
       <p>
-        Zelf sta ik geregeld aan een startlijn als loopster, en je vindt me vaak in de
-        bergen met een rugzak. Wedstrijdspanning, twijfel op kilometer 30 en de kunst
-        van het herstellen ken ik dus niet alleen uit de handboeken.
+        Zelf sta ik geregeld aan de startlijn als loopster, of trek ik de bergen in.
+        Wedstrijdspanning en twijfel op kilometer 30 ken ik dus niet alleen uit de
+        handboeken. Ambitieus zijn én jezelf blijven is ook voor mij zoeken, en
+        daar help ik je graag bij.
       </p>
       <ul class="meet-facts">
-        <li>Gedragstherapeutisch kader</li>
-        <li>ACT &amp; EMDR</li>
+        <li>Gedragstherapie</li>
+        <li>Systeemtherapie</li>
+        <li>EMDR</li>
+        <li>ACT</li>
         <li>Hartcoherentie</li>
         <li>NL / EN</li>
       </ul>
@@ -61,88 +70,119 @@ toc: false
 <!-- ===== PARCOURS ===== -->
 <section class="section" style="background: var(--paper-deep); border-block: 1px solid var(--line);">
   <div class="section-head rv">
-    <p class="kicker">Opleiding &amp; ervaring</p>
-    <h2 class="d-title">Het parcours</h2>
+    <p class="kicker">Achtergrond</p>
+    <h2 class="d-title">Opleiding &amp; ervaring</h2>
   </div>
-  <div class="section-inner">
-    <!-- TODO: jaartallen toevoegen -->
-    <div class="splits">
-      <div class="split rv">
-        <div class="split-marker">Split 01</div>
-        <div>
-          <h3>Master in de klinische psychologie</h3>
-          <p>Universiteit Gent</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 02</div>
-        <div>
-          <h3>Postgraduaat toegepaste sportpsychologie</h3>
-          <p>KU Leuven</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 03</div>
-        <div>
-          <h3>Sport &amp; Exercise Psychology</h3>
-          <p>Intensive course, University of Thessaly (GR)</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 04</div>
-        <div>
-          <h3>Studentenpsycholoog</h3>
-          <p>Universiteit Gent. Individuele begeleiding van studenten en doctorandi, kortdurend en oplossingsgericht.</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 05</div>
-        <div>
-          <h3>Eigen praktijk</h3>
-          <p>Sport- en performancepsychologie in Gent, voor sporters, studenten en al wie onder druk presteert.</p>
-        </div>
-      </div>
-      <div class="split rv">
-        <div class="split-marker">Split 06</div>
-        <div>
-          <h3>Bijscholingen</h3>
-          <p>ACT, EMDR (deel I &amp; II), hartcoherentiecoaching. Want ook psychologen blijven trainen.</p>
-        </div>
-      </div>
+  <div class="section-inner cv">
+    <div class="cv-col rv">
+      <h3>Opleiding</h3>
+      <p class="cv-order">Recentste bovenaan ↓</p>
+      <ul class="cv-list">
+        <li>
+          <span class="cv-year">2025</span>
+          <div>
+            <span class="cv-date">juni 2025</span>
+            <strong>ACT basisopleiding</strong>
+            <p>ACT academie</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2024</span>
+          <div>
+            <span class="cv-date">september 2024 – juni 2026</span>
+            <strong>Praktijkgerichte sportpsychologie</strong>
+            <p>KU Leuven</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">mei 2024</span>
+            <strong>EMDR Deel 2</strong>
+            <p>Integrativa</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2023</span>
+          <div>
+            <span class="cv-date">december 2023</span>
+            <strong>Sport Talentenpaspoort</strong>
+            <p>August360</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">oktober 2023</span>
+            <strong>EMDR Deel 1</strong>
+            <p>Integrativa</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">mei 2023 – juni 2023</span>
+            <strong>Hartcoherentiecoach</strong>
+            <p>Louvanie / nerva coach</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2016</span>
+          <div>
+            <span class="cv-date">september 2016 – juni 2022</span>
+            <strong>Master klinische psychologie</strong>
+            <p>Universiteit Gent</p>
+          </div>
+        </li>
+      </ul>
     </div>
-  </div>
-</section>
-
-<!-- ===== AANPAK ===== -->
-<section class="section">
-  <div class="section-head rv">
-    <p class="kicker">Aanpak</p>
-    <h2 class="d-title">Hoe ik werk</h2>
-  </div>
-  <div class="section-inner">
-    <div class="approach">
-      <div class="approach-block rv">
-        <h3>Evidence-based</h3>
-        <p>Wetenschappelijk onderbouwde methodes binnen een gedragstherapeutisch kader, met ACT en EMDR waar dat zinvol is. Geen goeroepraat.</p>
-      </div>
-      <div class="approach-block rv rv-1">
-        <h3>In beweging</h3>
-        <p>Sessies in de praktijk, maar even goed al wandelend, op het veld of op de fiets. Soms praat een mens beter met de benen in gang.</p>
-      </div>
-      <div class="approach-block rv rv-2">
-        <h3>De mens eerst</h3>
-        <p>Je bent meer dan je sport, je thesis of je ranking. We werken aan prestaties, zonder te vergeten wie er presteert.</p>
-      </div>
+    <div class="cv-col rv rv-1">
+      <h3>Ervaring</h3>
+      <p class="cv-order">Recentste bovenaan ↓</p>
+      <ul class="cv-list">
+        <li class="is-current">
+          <span class="cv-year">Nu</span>
+          <div>
+            <span class="cv-date">september 2023 – heden</span>
+            <strong>Studentenpsycholoog UGent</strong>
+            <p>Universiteit Gent (extern)</p>
+          </div>
+        </li>
+        <li class="is-current">
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">december 2022 – heden</span>
+            <strong>Zelfstandig klinisch psycholoog</strong>
+            <p>Tondel – Huis voor psychotherapie (coördinator en bestuurslid)</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year">2022</span>
+          <div>
+            <span class="cv-date">december 2022 – april 2023</span>
+            <strong>Zelfstandig klinisch psycholoog</strong>
+            <p>M3Care te Merelbeke</p>
+          </div>
+        </li>
+        <li>
+          <span class="cv-year"></span>
+          <div>
+            <span class="cv-date">september 2022 – oktober 2022</span>
+            <strong>Interim lerares Gedragswetenschappen</strong>
+            <p>Vrije Middelbare school Roeselare</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
 
 <!-- ===== MOTTO BAND ===== -->
 <section class="band">
-  <img class="band-img bw" src="images/web/scoreboard.jpg" alt="" loading="lazy">
+  <img class="band-img bw" src="images/web/scoreboard.jpg" width="1600" height="1067" alt="" loading="lazy">
   <blockquote class="rv">
-    “Niet luisteren naar je horloge, da werkt gewoon nie.”
-    <cite>Emma, ergens voorbij kilometer 30</cite>
+    “In een wereld waar het olympisch motto 'sneller, hoger en sterker' oppermachtig is, probeer ik passie, plezier en balans terug te brengen in ambitie.”
+    <cite>Emma</cite>
   </blockquote>
 </section>
 
@@ -155,3 +195,4 @@ toc: false
 
 </main>
 ```
+

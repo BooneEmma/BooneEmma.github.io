@@ -1,0 +1,88 @@
+---
+title: "Privacy"
+description: "How I handle the details you send through the contact form: what I keep, for how long, and how to have them deleted."
+toc: false
+include-in-header:
+  - text: |
+      <link rel="alternate" hreflang="nl" href="https://emmaboone.be/privacy.html">
+      <link rel="alternate" hreflang="en" href="https://emmaboone.be/en/privacy.html">
+---
+
+```{=html}
+<main>
+
+<!-- ===== PAGE HEAD ===== -->
+<section class="page-head">
+  <div class="page-head-inner">
+    <p class="kicker">Privacy</p>
+    <h1 class="d-title">Privacy</h1>
+    <p class="lede">How I handle the details you send through this website.</p>
+  </div>
+</section>
+
+<!-- ===== PRIVACY ===== -->
+<section class="section">
+  <div class="section-inner contact-grid">
+
+    <div class="contact-list rv">
+      <div class="contact-item">
+        <h2>Who</h2>
+        <p>Emma Boone, clinical psychologist, is responsible for the data on this website. You can reach me through the form on this page, or by post: Tondel – Huis voor psychotherapie, Stropstraat 15, 9000 Gent.</p>
+      </div>
+      <div class="contact-item">
+        <h2>Which data</h2>
+        <p>Only what you enter in the contact form yourself: your first name, last name, email address and message. I use these details only to answer your question or to plan a first conversation. I do not share them with others and do not use them for advertising.</p>
+      </div>
+      <div class="contact-item">
+        <h2>How your message travels</h2>
+        <p>The form runs through Web3Forms, a service that forwards your message to my Outlook (Microsoft) mailbox. The website itself is hosted on GitHub Pages. Like any web host, GitHub keeps technical log files, such as IP addresses.</p>
+      </div>
+      <div class="contact-item">
+        <h2>How long</h2>
+        <p>I keep messages sent through the form for a maximum of 6 months. After that, I delete them. If you start sessions with me, what you share in them falls under professional confidentiality. That is separate from this website.</p>
+      </div>
+      <div class="contact-item">
+        <h2>No cookies</h2>
+        <p>This website uses no cookies, no statistics and no trackers. Fonts and images are served from the website itself.</p>
+      </div>
+      <div class="contact-item">
+        <h2>Your rights</h2>
+        <p>You can always ask to have your details deleted. Use the form on this page for that. If you have another question about your details, you can add it there too. You can read more about your rights on the website of the <a href="https://www.dataprotectionauthority.be/citizen" target="_blank" rel="noopener">Data Protection Authority</a>.</p>
+      </div>
+    </div>
+
+    <div class="contact-form rv rv-1">
+      <h2>Delete my details</h2>
+      <p class="form-intro">Enter the email address you wrote to me from. I will delete all messages from that address and confirm by email, within one month at the latest.</p>
+      <form action="https://api.web3forms.com/submit" method="POST"
+            data-msg-sending="Sending…"
+            data-msg-error="Something went wrong. Please try again later or send a message via LinkedIn.">
+        <!-- Web3Forms access key (public by design) -->
+        <input type="hidden" name="access_key" value="8699112e-570e-49a7-9118-ca3ea24be3fc">
+        <input type="hidden" name="subject" value="Verwijderverzoek via de website (Engelstalig)">
+        <input type="hidden" name="from_name" value="Website Emma Boone">
+        <!-- Without JavaScript, Web3Forms shows its own success page -->
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <input type="checkbox" name="botcheck" class="form-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-group">
+          <label for="privacy-email">Email</label>
+          <input type="email" id="privacy-email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-group">
+          <label for="privacy-message">Comment (optional)</label>
+          <textarea id="privacy-message" name="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn">Send request</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <div class="form-thanks" hidden>
+        <p><strong>Your request has been received.</strong></p>
+        <p>I will confirm by email, within one month at the latest.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+```
