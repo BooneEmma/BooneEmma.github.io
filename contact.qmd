@@ -51,8 +51,8 @@ include-after-body: _includes/footer.html
       <form action="https://api.web3forms.com/submit" method="POST"
             data-msg-sending="Bezig met versturen…"
             data-msg-error="Er ging iets mis. Probeer het later opnieuw of stuur een bericht via LinkedIn.">
-        <!-- TODO: access key van web3forms.com invullen (mag publiek staan) -->
-        <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
+        <!-- Web3Forms access key (public by design) -->
+        <input type="hidden" name="access_key" value="8699112e-570e-49a7-9118-ca3ea24be3fc">
         <input type="hidden" name="subject" value="Nieuw bericht via de website">
         <input type="hidden" name="from_name" value="Website Emma Boone">
         <!-- Without JavaScript, Web3Forms shows its own success page -->

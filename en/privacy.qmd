@@ -57,8 +57,8 @@ include-in-header:
       <form action="https://api.web3forms.com/submit" method="POST"
             data-msg-sending="Sending…"
             data-msg-error="Something went wrong. Please try again later or send a message via LinkedIn.">
-        <!-- TODO: access key van web3forms.com invullen (mag publiek staan) -->
-        <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
+        <!-- Web3Forms access key (public by design) -->
+        <input type="hidden" name="access_key" value="8699112e-570e-49a7-9118-ca3ea24be3fc">
         <input type="hidden" name="subject" value="Verwijderverzoek via de website (Engelstalig)">
         <input type="hidden" name="from_name" value="Website Emma Boone">
         <!-- Without JavaScript, Web3Forms shows its own success page -->
