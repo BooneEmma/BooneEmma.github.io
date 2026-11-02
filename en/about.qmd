@@ -117,33 +117,9 @@ include-in-header:
         <li>
           <span class="cv-year"></span>
           <div>
-            <span class="cv-date">May – June 2023</span>
-            <strong>Basic training in eating disorders</strong>
-            <p>Eetexpert</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year"></span>
-          <div>
             <span class="cv-date">May 2023 – June 2023</span>
             <strong>Heart coherence coach</strong>
             <p>Louvanie / nerva coach</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year">2022</span>
-          <div>
-            <span class="cv-date">May 2022 – July 2022</span>
-            <strong>English language course</strong>
-            <p>Education First</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year">2020</span>
-          <div>
-            <span class="cv-date">September 2020 – January 2021</span>
-            <strong>Credit course: Sport psychology</strong>
-            <p>Ghent University</p>
           </div>
         </li>
         <li>
@@ -187,33 +163,9 @@ include-in-header:
         <li>
           <span class="cv-year"></span>
           <div>
-            <span class="cv-date">September 2022 – September 2023</span>
-            <strong>Volunteer, ANBN talk sessions</strong>
-            <p>ANBN Ghent</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year"></span>
-          <div>
             <span class="cv-date">September 2022 – October 2022</span>
             <strong>Interim teacher of behavioural sciences</strong>
             <p>Vrije Middelbare school Roeselare</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year">2021</span>
-          <div>
-            <span class="cv-date">September 2021 – March 2022</span>
-            <strong>Master's internship</strong>
-            <p>Study Advice Office, Ghent University: student psychologist</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year">2020</span>
-          <div>
-            <span class="cv-date">September 2020 – August 2022</span>
-            <strong>Student job at UGent</strong>
-            <p>Founder of a peer support system: De Praatsessies + fear-of-failure training sessions</p>
           </div>
         </li>
       </ul>
@@ -225,8 +177,8 @@ include-in-header:
 <section class="band">
   <img class="band-img bw" src="../images/web/scoreboard.jpg" width="1600" height="1067" alt="" loading="lazy">
   <blockquote class="rv">
-    “Not listening to your watch? That just doesn't work.”
-    <cite>Emma, somewhere past kilometre 30</cite>
+    “In a world where the Olympic motto 'faster, higher, stronger' reigns supreme, I try to bring passion, enjoyment and balance back into ambition.”
+    <cite>Emma</cite>
   </blockquote>
 </section>
 

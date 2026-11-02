@@ -121,33 +121,9 @@ include-after-body: _includes/footer.html
         <li>
           <span class="cv-year"></span>
           <div>
-            <span class="cv-date">mei – juni 2023</span>
-            <strong>Basisopleiding Eetstoornis</strong>
-            <p>Eetexpert</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year"></span>
-          <div>
             <span class="cv-date">mei 2023 – juni 2023</span>
             <strong>Hartcoherentiecoach</strong>
             <p>Louvanie / nerva coach</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year">2022</span>
-          <div>
-            <span class="cv-date">mei 2022 – juli 2022</span>
-            <strong>Taalcursus Engels</strong>
-            <p>Education First</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year">2020</span>
-          <div>
-            <span class="cv-date">september 2020 – januari 2021</span>
-            <strong>Creditvak: Sportpsychologie</strong>
-            <p>Universiteit Gent</p>
           </div>
         </li>
         <li>
@@ -191,33 +167,9 @@ include-after-body: _includes/footer.html
         <li>
           <span class="cv-year"></span>
           <div>
-            <span class="cv-date">september 2022 – september 2023</span>
-            <strong>Vrijwilliger praatsessies ANBN</strong>
-            <p>ANBN Gent</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year"></span>
-          <div>
             <span class="cv-date">september 2022 – oktober 2022</span>
             <strong>Interim lerares Gedragswetenschappen</strong>
             <p>Vrije Middelbare school Roeselare</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year">2021</span>
-          <div>
-            <span class="cv-date">september 2021 – maart 2022</span>
-            <strong>Masterstage</strong>
-            <p>Afdeling Studieadvies Universiteit Gent: studentenpsycholoog</p>
-          </div>
-        </li>
-        <li>
-          <span class="cv-year">2020</span>
-          <div>
-            <span class="cv-date">september 2020 – augustus 2022</span>
-            <strong>Jobstudent UGent</strong>
-            <p>Oprichter van peersupportsysteem: De Praatsessies + faalangsttrainingen</p>
           </div>
         </li>
       </ul>
@@ -229,8 +181,8 @@ include-after-body: _includes/footer.html
 <section class="band">
   <img class="band-img bw" src="images/web/scoreboard.jpg" width="1600" height="1067" alt="" loading="lazy">
   <blockquote class="rv">
-    “Niet luisteren naar je horloge, da werkt gewoon nie.”
-    <cite>Emma, ergens voorbij kilometer 30</cite>
+    “In een wereld waar het olympisch motto 'sneller, hoger en sterker' oppermachtig is, probeer ik passie, plezier en balans terug te brengen in ambitie.”
+    <cite>Emma</cite>
   </blockquote>
 </section>
 

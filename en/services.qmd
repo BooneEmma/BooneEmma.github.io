@@ -45,7 +45,6 @@ include-in-header:
           <li>Anxiety and worrying</li>
           <li>Low mood</li>
           <li>Trauma, with EMDR where appropriate</li>
-          <li>Eating problems</li>
           <li>Feeling stuck in your life or your work</li>
         </ul>
       </div>

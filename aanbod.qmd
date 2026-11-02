@@ -48,7 +48,6 @@ include-after-body: _includes/footer.html
           <li>Angst en piekeren</li>
           <li>Somberheid</li>
           <li>Trauma, met EMDR waar zinvol</li>
-          <li>Eetproblemen</li>
           <li>Vastlopen in je leven of je werk</li>
         </ul>
       </div>

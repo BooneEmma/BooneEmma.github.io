@@ -115,7 +115,7 @@ include-in-header:
       <img src="../images/web/portret.jpg" width="1199" height="1200" alt="Portrait of Emma Boone" loading="lazy">
       <figcaption class="photo-caption">
         <span>Emma Boone, Ghent</span>
-        <span class="tag">UGENT</span>
+        <!-- <span class="tag">UGENT</span> -->
       </figcaption>
     </figure>
     <div class="rv rv-1">

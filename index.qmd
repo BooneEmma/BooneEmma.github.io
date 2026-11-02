@@ -120,7 +120,7 @@ include-after-body: _includes/footer.html
       <img src="images/web/portret.jpg" width="1199" height="1200" alt="Portret van Emma Boone" loading="lazy">
       <figcaption class="photo-caption">
         <span>Emma Boone, Gent</span>
-        <span class="tag">UGENT</span>
+        <!-- <span class="tag">UGENT</span> -->
       </figcaption>
     </figure>
     <div class="rv rv-1">
