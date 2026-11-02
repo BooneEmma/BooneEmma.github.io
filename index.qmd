@@ -127,14 +127,13 @@ include-after-body: _includes/footer.html
       <p class="kicker">Over mij</p>
       <h2 class="d-title">Psycholoog én atleet</h2>
       <p style="margin-top:1.2rem; color: var(--ink-soft); max-width: 36em;">
-        Klinisch psycholoog, opgeleid in toegepaste sportpsychologie, en studentenpsycholoog
+        Klinisch psycholoog, opgeleid in sportpsychologie aan de KU Leuven, en momenteel studentenpsycholoog
         aan de UGent. Zelf sta ik geregeld aan een startlijn, dus wedstrijdspanning ken ik
         niet alleen uit de handboeken.
       </p>
       <ul class="meet-facts">
         <li>ACT &amp; EMDR</li>
-        <li>Studentenpsycholoog UGent</li>
-        <li>Zelf in koers</li>
+        <li>Competitie loper</li>
       </ul>
       <a class="arrow-link" href="over-mij.html">Lees mijn parcours</a>
     </div>

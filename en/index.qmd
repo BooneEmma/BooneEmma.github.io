@@ -122,14 +122,13 @@ include-in-header:
       <p class="kicker">About me</p>
       <h2 class="d-title">Psychologist and athlete</h2>
       <p style="margin-top:1.2rem; color: var(--ink-soft); max-width: 36em;">
-        Clinical psychologist, trained in applied sport psychology, and student psychologist
+        Clinical psychologist, trained in sport psychology at KU Leuven, and currently student psychologist
         at Ghent University. I regularly line up at a start myself, so I know competition
         nerves from more than just the textbooks.
       </p>
       <ul class="meet-facts">
         <li>ACT &amp; EMDR</li>
-        <li>Student psychologist UGent</li>
-        <li>Racing myself</li>
+        <li>Competitive runner</li>
       </ul>
       <a class="arrow-link" href="about.html">Read my background</a>
     </div>
